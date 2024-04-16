@@ -148,7 +148,7 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Clement";
 }
     if(ans == 7326){
-        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon";
+        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon B.";
         document.getElementById("header").src = "https://i.imgur.com/RyF99Lq.png"
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2d48d7";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/tkOQ0op.png";
@@ -156,7 +156,7 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Johnson";
 }
     if(ans == 7325){
-        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon";
+        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon B.";
         document.getElementById("header").src = "https://i.imgur.com/7Xlbm9W.png"
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2d48d7";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/tkOQ0op.png";
@@ -164,7 +164,7 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Johnson";
 }
     if(ans == 7324){
-        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon";
+        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon B.";
         document.getElementById("header").src = "https://i.imgur.com/7Xlbm9W.png"
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2d48d7";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/tkOQ0op.png";
@@ -530,7 +530,7 @@ let vpName = "Everett Dirksen";
         "pk": 907,
         "fields": {
           "priority": 1,
-          "description": "Lyndon Johnson has been relentlessly attacking your Presidency as ‘‘extreme’’ for your reforms to welfare and attempted reform of Social Security, while his running mate, recently elected, Governor of Massachusetts, Robert F. Kennedy, has attempted to tie you with conservative elements of your party, including Barry Goldwater. Do you have a response to these attacks? ",
+          "description": "Lyndon Johnson has been relentlessly attacking your Presidency as ‘‘extreme’’ for your reforms to welfare and attempted reform of Social Security, while his running mate, the recently elected, Governor of Massachusetts, Robert F. Kennedy, has attempted to tie you with conservative elements of your party, including Barry Goldwater. Do you have a response to these attacks? ",
           "likelihood": 1
         }
       }
@@ -542,7 +542,7 @@ let vpName = "Everett Dirksen";
         "pk": 907,
         "fields": {
           "priority": 1,
-          "description": "Lyndon Johnson has been relentlessly attacking your Presidency as ‘‘extreme’’ for your reforms to welfare and attempted reform of Social Security, while his running mate, recently elected, Governor of Massachusetts, Robert F. Kennedy, has attempted to tie you with conservative elements of your party, including Barry Goldwater. Do you have a response to these attacks? ",
+          "description": "Lyndon Johnson has been relentlessly attacking your Presidency as ‘‘extreme’’ for your reforms to welfare and attempted reform of Social Security, while his running mate, the recently elected, Governor of Massachusetts, Robert F. Kennedy, has attempted to tie you with conservative elements of your party, including Barry Goldwater. Do you have a response to these attacks? ",
           "likelihood": 1
         }
       }
@@ -554,7 +554,7 @@ let vpName = "Everett Dirksen";
         "pk": 907,
         "fields": {
           "priority": 1,
-          "description": "Lyndon Johnson has been relentlessly attacking your Presidency as ‘‘extreme’’ for your reforms to welfare and attempted reform of Social Security, while his running mate, recently elected, Governor of Massachusetts, Robert F. Kennedy, has attempted to tie you with conservative elements of your party, including Barry Goldwater. Do you have a response to these attacks? ",
+          "description": "Lyndon Johnson has been relentlessly attacking your Presidency as ‘‘extreme’’ for your reforms to welfare and attempted reform of Social Security, while his running mate, the recently elected, Governor of Massachusetts, Robert F. Kennedy, has attempted to tie you with conservative elements of your party, including Barry Goldwater. Do you have a response to these attacks? ",
           "likelihood": 1
         }
       }
@@ -2154,20 +2154,20 @@ let vpName = "Henry Cabot Lodge";
 vpTable = {
     "Richard Nixon" : vpName,
     "Frank Clement" : "Abraham Ribicoff",
-    "Clarence E. Manion" : "Ross Barnett",
+    "Clarence Manion" : "Ross Barnett",
     "Linus Pauling" : "William Fitts Ryan",
     "Other Candidates" : "Other Candidates",
     "Henry Cabot Lodge" : "Everett Dirksen",
     "Henry Cabot Lodge" : "Elmer Andersen",
     "Henry Cabot Lodge" : "Barry Goldwater",
     "Orval Faubus" : "John Bell Williams",
-    "Lyndon Johnson" : "Robert Kennedy",
+    "Lyndon B. Johnson" : "Robert F. Kennedy",
 }
 
 vpTableHistorical = {
     "Richard Nixon" : "Henry Cabot Lodge",
     "Frank Clement" : "Abraham Ribicoff",
-    "Clarence E. Manion" : "Ross Barnett",
+    "Clarence Manion" : "Ross Barnett",
     "Other Candidates" : "Other Candidates",
   } 
 
