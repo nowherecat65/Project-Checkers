@@ -302,7 +302,7 @@ let vpName = "Everett Dirksen";
         "pk": 915,
         "fields": {
           "priority": 1,
-          "description": "Mr. President, Governor Robert F. Kennedy, LBJ's running mate, announced on television that their administration would push for a comprehensive Civil Rights Act. This has provoked anger among Southern Democrats and conservatives, with rumors swirling that Lyndon is furious. How should we address this statement?",
+          "description": "Mr. President, Governor Robert F. Kennedy, LBJ's running mate, announced on television that their administration would push for a comprehensive Civil Rights Act, and praised the 'March To Freedom' campaign. This has provoked anger among Southern Democrats and conservatives, with rumors swirling that Lyndon is furious. How should we address this statement?",
           "likelihood": 1
         }
       }
@@ -314,7 +314,7 @@ let vpName = "Everett Dirksen";
         "pk": 915,
         "fields": {
           "priority": 1,
-          "description": "Mr. President, Governor Robert F. Kennedy, LBJ's running mate, announced on television that their administration would push for a comprehensive Civil Rights Act. This has provoked anger among Southern Democrats and conservatives, with rumors swirling that Lyndon is furious. How should we address this statement?",
+          "description": "Mr. President, Governor Robert F. Kennedy, LBJ's running mate, announced on television that their administration would push for a comprehensive Civil Rights Act, and praised the 'March To Freedom' campaign. This has provoked anger among Southern Democrats and conservatives, with rumors swirling that Lyndon is furious. How should we address this statement?",
           "likelihood": 1
         }
       }
@@ -326,7 +326,7 @@ let vpName = "Everett Dirksen";
         "pk": 915,
         "fields": {
           "priority": 1,
-          "description": "Mr. President, Governor Robert F. Kennedy, LBJ's running mate, announced on television that their administration would push for a comprehensive Civil Rights Act. This has provoked anger among Southern Democrats and conservatives, with rumors swirling that Lyndon is furious. How should we address this statement?",
+          "description": "Mr. President, Governor Robert F. Kennedy, LBJ's running mate, announced on television that their administration would push for a comprehensive Civil Rights Act, and praised the 'March To Freedom' campaign. This has provoked anger among Southern Democrats and conservatives, with rumors swirling that Lyndon is furious. How should we address this statement?",
           "likelihood": 1
         }
       }
