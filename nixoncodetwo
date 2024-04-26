@@ -295,6 +295,42 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+	if(ans == 9921){
+      // HEAL HAPPENS (MIDTERM) QUESTION 21
+      campaignTrail_temp.questions_json[26] = {
+        "model": "campaign_trail.question",
+        "pk": 916,
+        "fields": {
+          "priority": 1,
+          "description": "Concerns grow among military leaders and your cabinet regarding the Vietnamese Civil War between Communist North and Authoritarian South. Limited American boots on the ground (around 5000, mainly as military advisors) continue to prompt discussions on increasing involvement. What is your strategy moving forward?",
+          "likelihood": 1
+        }
+      }
+    }
+	if(ans == 9920){
+      // HEAL HAPPENS (MIDTERM) QUESTION 21
+      campaignTrail_temp.questions_json[26] = {
+        "model": "campaign_trail.question",
+        "pk": 916,
+        "fields": {
+          "priority": 1,
+          "description": "Concerns grow among military leaders and your cabinet regarding the Vietnamese Civil War between Communist North and Authoritarian South. Limited American boots on the ground (around 5000, mainly as military advisors) continue to prompt discussions on increasing involvement. What is your strategy moving forward?",
+          "likelihood": 1
+        }
+      }
+    }
+	if(ans == 9919){
+      // HEAL HAPPENS (MIDTERM) QUESTION 21
+      campaignTrail_temp.questions_json[26] = {
+        "model": "campaign_trail.question",
+        "pk": 916,
+        "fields": {
+          "priority": 1,
+          "description": "Concerns grow among military leaders and your cabinet regarding the Vietnamese Civil War between Communist North and Authoritarian South. Limited American boots on the ground (around 5000, mainly as military advisors) continue to prompt discussions on increasing involvement. What is your strategy moving forward?",
+          "likelihood": 1
+        }
+      }
+    }
 	if(ans == 9349){
       // HEAL HAPPENS (MIDTERM) QUESTION 20
       campaignTrail_temp.questions_json[25] = {
