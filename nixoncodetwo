@@ -244,6 +244,22 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Clarence";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
 }
+    if(ans == 9340){
+        campaignTrail_temp.candidate_json[6]["fields"].first_name = "Clarence";
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
+}
+    if(ans == 9341){
+        campaignTrail_temp.candidate_json[6]["fields"].first_name = "Clarence";
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
+}
+    if(ans == 9339){
+        campaignTrail_temp.candidate_json[6]["fields"].first_name = "Clarence";
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
+}
+    if(ans == 9636){
+        campaignTrail_temp.candidate_json[6]["fields"].first_name = "Clarence";
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
+}
     if(ans == 9344){
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Clarence";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
