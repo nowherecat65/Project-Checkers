@@ -908,7 +908,7 @@ vpTable = {
     "Frank Clement" : "Frank Lausche",
     "Frank Clement" : "John Pastore",
     "Frank Clement" : "Abraham Ribicoff",
-    "Clarence E. Manion" : "Ross Barnett",
+    "Clarence Manion" : "Ross Barnett",
     "Other Candidates" : "Other Candidates ",
     "Hubert Humphrey" : "Stuart Symington",
     "Henry Cabot Lodge Jr." : "Gerald Ford",
@@ -923,7 +923,7 @@ vpTable = {
 vpTableHistorical = {
     "Richard Nixon" : "Henry Cabot Lodge Jr.",
     "Frank Clement" : "Abraham Ribicoff",
-    "Clarence E. Manion" : "Ross Barnett",
+    "Clarence Manion" : "Ross Barnett",
     "Other Candidates" : "Other Candidates",
   } 
 
