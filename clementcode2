@@ -654,6 +654,18 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(40003);
     }
+    if(ans == 6151){
+        console.log("done");
+        campaignTrail_temp.candidate_json[7]["fields"].last_name = "Faubus";
+       campaignTrail_temp.candidate_json[7]["fields"].first_name = "Orval";
+       campaignTrail_temp.candidate_json[7]["fields"].color_hex = "#c7302c";
+    }
+    if(ans == 6152){
+        console.log("done");
+        campaignTrail_temp.candidate_json[7]["fields"].last_name = "Faubus";
+       campaignTrail_temp.candidate_json[7]["fields"].first_name = "Orval";
+       campaignTrail_temp.candidate_json[7]["fields"].color_hex = "#c7302c";
+    }
     if(ans == 2620){
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(40003);
@@ -704,7 +716,9 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.running_mate_first_name = 'Stuart';
 document.getElementById("header").src = "https://i.imgur.com/SJChc52.png"
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#1E42B2";
+       campaignTrail_temp.candidate_json[7]["fields"].color_hex = "#2e8b57";
        campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#AF2623";
+        campaignTrail_temp.candidate_json[7]["fields"].last_name = "Undecided";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Humphrey";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = 
 "https://i.imgur.com/S2LJxh9.jpg";
