@@ -658,13 +658,13 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         console.log("done");
         campaignTrail_temp.candidate_json[7]["fields"].last_name = "Faubus";
        campaignTrail_temp.candidate_json[7]["fields"].first_name = "Orval";
-       campaignTrail_temp.candidate_json[7]["fields"].color_hex = "#c7302c";
+       campaignTrail_temp.candidate_json[7]["fields"].color_hex = "#2e8b57";
     }
     if(ans == 6152){
         console.log("done");
         campaignTrail_temp.candidate_json[7]["fields"].last_name = "Faubus";
        campaignTrail_temp.candidate_json[7]["fields"].first_name = "Orval";
-       campaignTrail_temp.candidate_json[7]["fields"].color_hex = "#c7302c";
+       campaignTrail_temp.candidate_json[7]["fields"].color_hex = "#2e8b57";
     }
     if(ans == 2620){
         console.log("done");
