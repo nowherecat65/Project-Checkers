@@ -203,10 +203,24 @@ cyoAdventure = function(a) {
     if(ans == 1519){
         console.log("done");
         switcheroo16();
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Undecided";
+    }
+    if(ans == 3343){
+        console.log("done");
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
+    }
+    if(ans == 3344){
+        console.log("done");
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
+    }
+    if(ans == 9833){
+        console.log("done");
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
     }
     if(ans == 1520){
         console.log("done");
         switcheroo15();
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Undecided";
     }
     if(ans == 2615){
         console.log("done");
@@ -656,15 +670,15 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
     }
     if(ans == 6151){
         console.log("done");
-        campaignTrail_temp.candidate_json[7]["fields"].last_name = "Faubus";
-       campaignTrail_temp.candidate_json[7]["fields"].first_name = "Orval";
-       campaignTrail_temp.candidate_json[7]["fields"].color_hex = "#2e8b57";
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Faubus";
+       campaignTrail_temp.candidate_json[6]["fields"].first_name = "Orval";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#2e8b57";
     }
     if(ans == 6152){
         console.log("done");
-        campaignTrail_temp.candidate_json[7]["fields"].last_name = "Faubus";
-       campaignTrail_temp.candidate_json[7]["fields"].first_name = "Orval";
-       campaignTrail_temp.candidate_json[7]["fields"].color_hex = "#2e8b57";
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Faubus";
+       campaignTrail_temp.candidate_json[6]["fields"].first_name = "Orval";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#2e8b57";
     }
     if(ans == 2620){
         console.log("done");
@@ -716,9 +730,9 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.running_mate_first_name = 'Stuart';
 document.getElementById("header").src = "https://i.imgur.com/SJChc52.png"
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#1E42B2";
-       campaignTrail_temp.candidate_json[7]["fields"].color_hex = "#2e8b57";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#2e8b57";
        campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#AF2623";
-        campaignTrail_temp.candidate_json[7]["fields"].last_name = "Undecided";
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Undecided";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Humphrey";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = 
 "https://i.imgur.com/S2LJxh9.jpg";
