@@ -383,6 +383,7 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
     if(ans == 6775){
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(40007);
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
     }
     if(ans == 3170){
         console.log("done");
@@ -447,10 +448,12 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
     if(ans == 6774){
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(40007);
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
     }
     if(ans == 6773){
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(40007);
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
     }
     if(ans == 1132){
         console.log("done");
