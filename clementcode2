@@ -742,7 +742,7 @@ document.getElementById("header").src = "https://i.imgur.com/SJChc52.png"
         campaignTrail_temp.candidate_json[2]["fields"].image_url = 
 "https://i.imgur.com/CXdHaXu.png";
          document.body.background = "https://i.imgur.com/Gc74NYy.png";
-        campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/Gd5pj6k.png';
+        campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/CXdHaXu.png';
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/SpKBRVO.jpg';
     campaignTrail_temp.running_mate_last_name = 'For President!';
         campaignTrail_temp.candidate_last_name = 'Humphrey';
