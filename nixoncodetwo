@@ -155,13 +155,13 @@ document.head.appendChild(style_overwrite);
         document.body.background = "https://i.imgur.com/rvuG8wJ.png"
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Johnson";
 }
-    if(ans == 5326){
-        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Wayne";
+    if(ans == 5265){
+        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Elbert";
         document.getElementById("header").src = "https://i.imgur.com/5xy7MGl.png"
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2d48d7";
-        campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/rI6O3Sc.png";
+        campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/L86FfMv.png";
         document.body.background = "https://i.imgur.com/rvuG8wJ.png"
-        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Morse";
+        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Carvel";
 }
     if(ans == 7325){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon B.";
@@ -1406,7 +1406,7 @@ let vpName = "Everett Dirksen";
         "pk": 9011,
         "fields": {
           "priority": 1,
-          "description": "(JULY 1964) You sit in the Oval Office, flanked by Erlichman and Haldeman, grimacing. Pat woke you up in the middle of last night to deliver you the breaking news. Your opponent would not be Jack Kennedy, nor would it be Hubert Humphrey. No, your opponent is the the Republican-turned-Indepedent-turned-Democratic Senator Wayne Morse, who partipated in the primary contests, and won his homestate of Oregon, he was nominated on a liberal, reform minded platform. ",
+          "description": "(JULY 1964) You sit in the Oval Office, flanked by Erlichman and Haldeman, grimacing. Pat woke you up in the middle of last night to deliver you the breaking news. Your opponent would not be Jack Kennedy, nor would it be Hubert Humphrey. No, your opponent is the the little-known, Governor of Delaware, Elbert 'Big Bert' Carvel, who addressed the Convention yesterday, and had a draft movement start surronding his name. He was nominated on a liberal, reform minded platform which approached civil rights with caution. ",
           "likelihood": 1
         }
       }
@@ -1418,7 +1418,7 @@ let vpName = "Everett Dirksen";
         "pk": 9011,
         "fields": {
           "priority": 1,
-          "description": "(JULY 1964) You sit in the Oval Office, flanked by Erlichman and Haldeman, grimacing. Pat woke you up in the middle of last night to deliver you the breaking news. Your opponent would not be Jack Kennedy, nor would it be Hubert Humphrey. No, your opponent is the the Republican-turned-Indepedent-turned-Democratic Senator Wayne Morse, who partipated in the primary contests, and won his homestate of Oregon, he was nominated on a liberal, reform minded platform. ",
+          "description": "(JULY 1964) You sit in the Oval Office, flanked by Erlichman and Haldeman, grimacing. Pat woke you up in the middle of last night to deliver you the breaking news. Your opponent would not be Jack Kennedy, nor would it be Hubert Humphrey. No, your opponent is the the little-known, Governor of Delaware, Elbert 'Big Bert' Carvel, who addressed the Convention yesterday, and had a draft movement start surronding his name. He was nominated on a liberal, reform minded platform which approached civil rights with caution. ",
           "likelihood": 1
         }
       }
@@ -1430,7 +1430,7 @@ let vpName = "Everett Dirksen";
         "pk": 9011,
         "fields": {
           "priority": 1,
-          "description": "(JULY 1964) You sit in the Oval Office, flanked by Erlichman and Haldeman, grimacing. Pat woke you up in the middle of last night to deliver you the breaking news. Your opponent would not be Jack Kennedy, nor would it be Hubert Humphrey. No, your opponent is the the Republican-turned-Indepedent-turned-Democratic Senator Wayne Morse, who partipated in the primary contests, and won his homestate of Oregon, he was nominated on a liberal, reform minded platform. ",
+          "description": "(JULY 1964) You sit in the Oval Office, flanked by Erlichman and Haldeman, grimacing. Pat woke you up in the middle of last night to deliver you the breaking news. Your opponent would not be Jack Kennedy, nor would it be Hubert Humphrey. No, your opponent is the the little-known, Governor of Delaware, Elbert 'Big Bert' Carvel, who addressed the Convention yesterday, and had a draft movement start surronding his name. He was nominated on a liberal, reform minded platform which approached civil rights with caution. ",
           "likelihood": 1
         }
       }
