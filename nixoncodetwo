@@ -311,6 +311,54 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+	if(ans == 7381){
+      // HEAL HAPPENS (MIDTERM) QUESTION 32
+      campaignTrail_temp.questions_json[37] = {
+        "model": "campaign_trail.question",
+        "pk": 9256,
+        "fields": {
+          "priority": 1,
+          "description": "In early 1962, your attempts to advance a market-based expansion of Social Security, while drawing staunch support from conservatives, ultimately succumbed to resistance from moderates and liberals in Congress. In recent days, Senator Johnson has intensified his criticism of that proposal and championed his legislative resistance as the election nears. Have your views evolved since then?",
+          "likelihood": 1
+        }
+      }
+    }
+	if(ans == 7384){
+      // HEAL HAPPENS (MIDTERM) QUESTION 32
+      campaignTrail_temp.questions_json[37] = {
+        "model": "campaign_trail.question",
+        "pk": 9256,
+        "fields": {
+          "priority": 1,
+          "description": "In early 1962, your attempts to advance a market-based expansion of Social Security, while drawing staunch support from conservatives, ultimately succumbed to resistance from moderates and liberals in Congress. In recent days, Senator Johnson has intensified his criticism of that proposal and championed his legislative resistance as the election nears. Have your views evolved since then?",
+          "likelihood": 1
+        }
+      }
+    }
+	if(ans == 7383){
+      // HEAL HAPPENS (MIDTERM) QUESTION 32
+      campaignTrail_temp.questions_json[37] = {
+        "model": "campaign_trail.question",
+        "pk": 9256,
+        "fields": {
+          "priority": 1,
+          "description": "In early 1962, your attempts to advance a market-based expansion of Social Security, while drawing staunch support from conservatives, ultimately succumbed to resistance from moderates and liberals in Congress. In recent days, Senator Johnson has intensified his criticism of that proposal and championed his legislative resistance as the election nears. Have your views evolved since then?",
+          "likelihood": 1
+        }
+      }
+    }
+	if(ans == 7382){
+      // HEAL HAPPENS (MIDTERM) QUESTION 32
+      campaignTrail_temp.questions_json[37] = {
+        "model": "campaign_trail.question",
+        "pk": 9256,
+        "fields": {
+          "priority": 1,
+          "description": "In early 1962, your attempts to advance a market-based expansion of Social Security, while drawing staunch support from conservatives, ultimately succumbed to resistance from moderates and liberals in Congress. In recent days, Senator Johnson has intensified his criticism of that proposal and championed his legislative resistance as the election nears. Have your views evolved since then?",
+          "likelihood": 1
+        }
+      }
+    }
 	if(ans == 7374){
       // HEAL HAPPENS (MIDTERM) QUESTION 31
       campaignTrail_temp.questions_json[36] = {
