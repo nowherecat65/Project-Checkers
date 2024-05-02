@@ -1007,6 +1007,9 @@ vpTable = {
     "Clarence Manion" : "Ross Barnett",
     "Other Candidates" : "Other Candidates ",
     "Hubert Humphrey" : vpName,
+    "Hubert Humphrey" : "Stuart Symington",
+    "Hubert Humphrey" : "Wayne Morse",
+    "Hubert Humphrey" : "Terry Sanford",
     "Orval Faubus" : "William Wallace Barron",
     "Pat Brown" : "George Smathers",
 }
