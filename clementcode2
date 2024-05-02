@@ -1006,6 +1006,7 @@ vpTable = {
     "Frank Clement" : "Abraham Ribicoff",
     "Clarence Manion" : "Ross Barnett",
     "Other Candidates" : "Other Candidates ",
+    "Hubert Humphrey" : vpName,
     "Hubert Humphrey" : "Stuart Symington",
     "Hubert Humphrey" : "Wayne Morse",
     "Hubert Humphrey" : "Terry Sanford",
