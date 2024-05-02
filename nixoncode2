@@ -158,9 +158,10 @@ document.head.appendChild(style_overwrite);
     if(ans == 2324){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Robert F.";
         document.getElementById("header").src = "https://i.imgur.com/5xy7MGl.png"
-        campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2d48d7";
+        campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#132CA5";
+        campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#C61C19";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/myrOqXw.png";
-        document.body.background = "https://i.imgur.com/rvuG8wJ.png"
+        document.body.background = "https://i.imgur.com/2ypl8nG.png"
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Kennedy";
 }
     if(ans == 7325){
