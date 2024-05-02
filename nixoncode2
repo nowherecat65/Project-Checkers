@@ -1448,6 +1448,18 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+    if(ans == 8794){
+      // HEAL HAPPENS (MIDTERM) QUESTION 5
+      campaignTrail_temp.questions_json[10] = {
+        "model": "campaign_trail.question",
+        "pk": 989,
+        "fields": {
+          "priority": 1,
+          "description": "(MAY 1964) You open the latest issue of the Washington Post, expecting to see some nonsense about the RNC being held in San Francisco. Instead, you’re greeted by a much more unpleasant headline: a ‘‘Draft Goldwater’’ movement is gaining a bit of momentum, signified by you only winning 2/3rds of the Republican Primary vote in Texas. While it’s clear that re-nomination remains practically assured, this isn't great for our public image. How do you plan on responding? ",
+          "likelihood": 1
+        }
+      }
+    }
     if(ans == 879300){
       // HEAL HAPPENS (MIDTERM) - KENNEDY QUESTION 5
       campaignTrail_temp.questions_json[10] = {
