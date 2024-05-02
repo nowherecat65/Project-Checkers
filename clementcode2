@@ -274,6 +274,13 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         campaignTrail_temp.running_mate_last_name = 'Symington';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Pl2FvUZ.jpg';
     }
+    if(ans == 4839){
+        console.log("done");
+        campaignTrail_temp.running_mate_first_name = 'Terry';
+        let vpName = "Terry Sanford";
+        campaignTrail_temp.running_mate_last_name = 'Sanford';
+        campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/VmYR2I6.png';
+    }
     if(ans == 7439){
         console.log("done");
         campaignTrail_temp.running_mate_first_name = 'Wayne';
@@ -641,6 +648,10 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50003);
     }
     if(ans == 4439){
+        console.log("done");
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50004);
+    }
+    if(ans == 4839){
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50004);
     }
