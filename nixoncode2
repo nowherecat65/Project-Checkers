@@ -2869,11 +2869,9 @@ function onGameWindowChangeCandidates() {
 
             if(i == 0) {
                 row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate<span>`;
-                color: black;
             }
             else {
                 row.children[1].innerHTML = vpTable[name];
-                color: black;
             }
         }
 
@@ -2890,11 +2888,9 @@ function onGameWindowChangeCandidates() {
 
             if(i == 0) {
                 row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate<span>`;
-                color: black;
             }
             else {
                 row.children[1].innerHTML = vpTableHistorical[name];
-                color: black;
             }
         }
 }
