@@ -659,6 +659,22 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50004);
     }
+    if(ans == 7530){
+        console.log("done");
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50008);
+    }
+    if(ans == 7327){
+        console.log("done");
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50008);
+    }
+    if(ans == 7328){
+        console.log("done");
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50008);
+    }
+    if(ans == 7683){
+        console.log("done");
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50008);
+    }
     if(ans == 4440){
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50003);
