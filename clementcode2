@@ -659,19 +659,15 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50004);
     }
-    if(ans == 7530){
+    if(ans == 7444){
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50008);
     }
-    if(ans == 7327){
+    if(ans == 7330){
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50008);
     }
-    if(ans == 7328){
-        console.log("done");
-        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50008);
-    }
-    if(ans == 7683){
+    if(ans == 7329){
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(50008);
     }
