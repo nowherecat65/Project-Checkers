@@ -743,6 +743,11 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         console.log("done");
         switcheroo4();
   }
+    if(ans == 6666){
+        campaignTrail_temp.candidate_json[2]["fields"].advisor_url = 'https://i.imgur.com/xUut8wb.png';
+        campaignTrail_temp.candidate_json[0]["fields"].advisor_url = 'https://i.imgur.com/xUut8wb.png';
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/xUut8wb.png'; 
+  }
    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
     if(ans == 1111){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Pat";
