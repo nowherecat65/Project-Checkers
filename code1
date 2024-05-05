@@ -12,11 +12,11 @@ campaignTrail_temp.achievements = {
         "description" : "As President Nixon win an overwhelming landslide victory.",
     },
     "Jumbo" : {
-        "image" : "https://i.imgur.com/aC6X17b.jpeg",
+        "image" : "https://i.imgur.com/5VKt2hr.jpeg",
         "description" : "As President Nixon face L.B.J in the general.",
     },
     "Horn-Rimmed Glasses" : {
-        "image" : "https://i.imgur.com/nEbaHmp.jpeg",
+        "image" : "https://i.imgur.com/8jekVkA.png",
         "description" : "Win the Presidency as the secret, glasses-wearing Democrat.",
     },
 }
