@@ -28,7 +28,7 @@ campaignTrail_temp.achievements = {
     },
     "Horn-Rimmed Glasses" : {
         "image" : "https://i.imgur.com/8jekVkA.png",
-        "description" : "Win the Presidency as the secret, glasses-wearing Democrat.",
+        "description" : "Unlock the Pat Brown side.",
     },
 }
 musicMode = () => {
