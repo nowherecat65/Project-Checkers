@@ -312,6 +312,22 @@ e = campaignTrail_temp;
 
 document.getElementById("header").src = "https://i.imgur.com/RyF99Lq.png"
 
+campaignTrail_temp.achievements = {
+    "Test" : {
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg",
+        "description" : "This is a test MEOW This is a test MEOW This is a test MEOW"
+    },
+    "Test2" : {
+        "image" : "IMAGE URL HERE",
+        "description" : "DESCRIPTION HERE"
+    },
+    "Test33333333333333333333333333333333" : {
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg",
+        "description" : "This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW",
+        "cannotBeCheated" : true
+    }
+}
+
 document.styleSheets[0].insertRule(".game_header{ height:4.5em !important;}", 0);
 document.styleSheets[0].insertRule("#game_window{ height:45em !important;}", 0);
 
