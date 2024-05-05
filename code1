@@ -3,7 +3,7 @@ campaignTrail_temp.achievements = {
         "image" : "https://i.imgur.com/sEIU7tw.jpeg",
         "description" : "As Frank Clement, win the Presidential election.",
     },
-    "Dallas 63" : {
+    "Tragedy in Dallas '63" : {
         "image" : "https://i.imgur.com/kQ7ugNe.png",
         "description" : "As President Nixon visit Dallas, Texas, and meet your maker.",
     },
@@ -16,7 +16,7 @@ campaignTrail_temp.achievements = {
         "description" : "As President Nixon lose re-election.",
     },
     "Jumbo" : {
-        "image" : "https://i.imgur.com/5VKt2hr.jpeg",
+        "image" : "https://i.imgur.com/XUVs72P.png",
         "description" : "As President Nixon face L.B.J in the general.",
     },
     "Horn-Rimmed Glasses" : {
