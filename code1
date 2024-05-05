@@ -378,12 +378,12 @@ nct_stuff.themes[nct_stuff.selectedTheme].text_col = "#ffffff"
 
 campaignTrail_temp.modBoxTheme = {
      "header_color": "#393647",
-     "header_text_color": "#ad2d2f",
+     "header_text_color": "#f4e5e5",
      "description_text_color": "#282631",
      "description_background_color": "#ad2d2f",
      "main_color": "#ad2d2f",
      "secondary_color": "#393647",
-     "ui_text_color": "#ad2d2f"
+     "ui_text_color": "#f4e5e5"
 }
 
 next4 = function() {
