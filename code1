@@ -1,3 +1,13 @@
+if (!e.runIntro) {
+var music = new Audio('https://cdn.discordapp.com/attachments/1098488379575914516/1146956485679665162/y2mate.is_-_1956_HITS_ARCHIVE_I_Could_Have_Danced_All_Night_Sylvia_Syms-FlxYw8lmHm0-192k-1693526020.mp3');
+music.loop = true; 
+music.play();
+e.runIntro = true;
+RecReading=true
+quotes = ["“Whoever kindles the flame of intolerance in America is lighting a fire underneath his own home.” ~ Harold Stassen"]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
+}
 campaignTrail_temp.achievements = {
     "Dawn of a Better Tommorow" : {
         "image" : "https://i.imgur.com/YoxZvr1.png",
