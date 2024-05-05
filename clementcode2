@@ -234,6 +234,7 @@ cyoAdventure = function(a) {
         console.log("done");
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] =    tunnel(40000);
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Pat";
+        unlockAchievement("Horn-Rimmed Glasses");
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#3C65F6";
        campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#c7302c";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Brown";
@@ -252,7 +253,6 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         let vpName = "George Smathers";
         campaignTrail_temp.running_mate_last_name = 'Smathers';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Szw9Okb.png';
-        unlockAchievement("Horn-Rimmed Glasses");
     }
     if(ans == 2616){
         console.log("done");
@@ -260,7 +260,6 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         let vpName = "George Smathers";
         campaignTrail_temp.running_mate_last_name = 'Smathers';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Szw9Okb.png';
-        unlockAchievement("Horn-Rimmed Glasses");
     }
     if(ans == 1612){
         console.log("done");
