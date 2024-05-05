@@ -3,7 +3,7 @@ e.runIntro = true;
 RecReading=true
 quotes = ["“The greatest honor history can bestow is the title of peacemaker.” ~ Richard Nixon"]
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
-corrr=`\n<h2>New Campaign Trail</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
 }
 campaignTrail_temp.achievements = {
     "Dawn of a Better Tommorow" : {
