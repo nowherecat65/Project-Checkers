@@ -14,9 +14,13 @@ campaignTrail_temp.achievements = {
         "image" : "https://i.imgur.com/5cgCjDz.jpeg",
         "description" : "As President Nixon visit Dallas, Texas, and meet your maker.",
     },
+    "8 Years Early" : {
+        "image" : "https://i.imgur.com/b0xSyR6.png",
+        "description" : "As President Nixon win an overwhelming landslide victory, surpassing both of Ike's margins.",
+    },
     "Richard Mandate Nixon" : {
         "image" : "https://i.imgur.com/M0NMoJu.png",
-        "description" : "As President Nixon win an overwhelming landslide victory.",
+        "description" : "As President Nixon win a landslide victory.",
     },
     "Nixon The Loser" : {
         "image" : "https://i.imgur.com/qAjofFA.png",
