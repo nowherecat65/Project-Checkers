@@ -111,6 +111,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2e51c5";
        campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#BD272B";
         campaignTrail_temp.candidate_last_name = 'President';
+        unlockAchievement("Dallas 63");
         campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/HOprpJO.png';
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Democrat";
         campaignTrail_temp.candidate_json[7]["fields"].last_name = "Undecided";
