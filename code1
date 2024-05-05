@@ -1,3 +1,25 @@
+campaignTrail_temp.achievements = {
+    "Three's a Party" : {
+        "image" : "https://i.imgur.com/PoIYyDa.png",
+        "description" : "As William Knowland, have 3 different men as your running mate in a single run and win.",
+    },
+    "This One's For The Record" : {
+        "image" : "https://i.imgur.com/Ytzm5R2.png",
+        "description" : "As William Knowland, achieve the canon result with Henry Cabot Lodge Jr. as your running mate.",
+    },
+    "The Other Commonwealth" : {
+        "image" : "https://i.imgur.com/KtR6Pao.png",
+        "description" : "As John W. McCormack, win Virginia.",
+    },
+    "Boston Beats Austin" : {
+        "image" : "https://i.imgur.com/0t18NF9.png",
+        "description" : "As John W. McCormack, pass an extensive civil rigths act and win 365 or more electoral votes.",
+    },
+    "Gideon's Return" : {
+        "image" : "https://i.imgur.com/kOu3zmq.png",
+        "description" : "As the secret candidate in 1956Red, win at least 316 electoral votes.",
+    },
+}
 musicMode = () => {
   songsPlayed = 0;
   // Initialise custom music
@@ -311,28 +333,6 @@ function newMusicPlayer() {
 e = campaignTrail_temp;
 
 document.getElementById("header").src = "https://i.imgur.com/RyF99Lq.png"
-
-campaignTrail_temp.achievements = {
-    "We're A Winner" : {
-        "image" : "https://i.imgur.com/sEIU7tw.jpeg",
-        "description" : "You won the Presidential race as Frank Clement!"
-        "cannotBeCheated" : true
-    },
-    "Dallas 63" : {
-        "image" : "https://i.imgur.com/kQ7ugNe.png",
-        "description" : "President Richard Nixon is killed on November 22nd 1963, in Dallas, Texas. - and the nation cries. Vice President Lodge becomes President Lodge. "
-    },
-    "Richard 'Mandate' Milhous Nixon" : {
-        "image" : "https://i.imgur.com/aC6X17b.jpeg",
-        "description" : "Win an overwhelming landslide victory as President Nixon. "
-        "cannotBeCheated" : true
-    },
-    "Horn-Rimmed Glasses" : {
-        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg",
-        "description" : "Wow! You found the Pat Brown side!",
-        "cannotBeCheated" : true
-    }
-}
 
 document.styleSheets[0].insertRule(".game_header{ height:4.5em !important;}", 0);
 document.styleSheets[0].insertRule("#game_window{ height:45em !important;}", 0);
