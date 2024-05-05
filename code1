@@ -313,17 +313,22 @@ e = campaignTrail_temp;
 document.getElementById("header").src = "https://i.imgur.com/RyF99Lq.png"
 
 campaignTrail_temp.achievements = {
-    "Test" : {
-        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg",
-        "description" : "This is a test MEOW This is a test MEOW This is a test MEOW"
+    "We're A Winner" : {
+        "image" : "https://i.imgur.com/sEIU7tw.jpeg",
+        "description" : "You won the Presidential race as Frank Clement!"
+        "cannotBeCheated" : true
     },
-    "Test2" : {
-        "image" : "IMAGE URL HERE",
-        "description" : "DESCRIPTION HERE"
+    "Dallas 63" : {
+        "image" : "https://i.imgur.com/kQ7ugNe.png",
+        "description" : "President Richard Nixon is killed on November 22nd 1963, in Dallas, Texas. - and the nation cries. Vice President Lodge becomes President Lodge. "
     },
-    "Test33333333333333333333333333333333" : {
+    "Richard 'Mandate' Milhous Nixon" : {
+        "image" : "https://i.imgur.com/aC6X17b.jpeg",
+        "description" : "Win an overwhelming landslide victory as President Nixon. "
+    },
+    "Horn-Rimmed Glasses" : {
         "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg",
-        "description" : "This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW This is a test MEOW",
+        "description" : "Wow! You found the Pat Brown side!",
         "cannotBeCheated" : true
     }
 }
