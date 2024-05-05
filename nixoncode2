@@ -263,6 +263,12 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Clarence";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
 }
+    if (quickstats[0] > 0 && aa[0].electoral_votes < 269) { // Lose
+    ctsAchievement("Richard Nixon The Loser");  
+}
+    if (quickstats[0] > 456 && aa[0].electoral_votes < 538) { // Lose
+    ctsAchievement("Richard Mandate Nixon");  
+}
     if(ans == 9340){
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Clarence";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Manion";
