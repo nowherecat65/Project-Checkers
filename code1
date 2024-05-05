@@ -17,11 +17,11 @@ campaignTrail_temp.achievements = {
     },
     "8 Years Early" : {
         "image" : "https://i.imgur.com/b0xSyR6.png",
-        "description" : "As President Nixon win an overwhelming landslide victory, surpassing both of Ike's margins.",
+        "description" : "As President Nixon win an overwhelming landslide re-election victory, surpassing both of Ike's margins.",
     },
     "Richard Mandate Nixon" : {
         "image" : "https://i.imgur.com/M0NMoJu.png",
-        "description" : "As President Nixon win a landslide victory.",
+        "description" : "As President Nixon win a landslide re-election victory.",
     },
     "Nixon The Loser" : {
         "image" : "https://i.imgur.com/qAjofFA.png",
