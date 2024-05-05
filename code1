@@ -11,7 +11,7 @@ campaignTrail_temp.achievements = {
         "image" : "https://i.imgur.com/aC6X17b.jpeg",
         "description" : "As President Nixon win an overwhelming landslide victory.",
     },
-    "Richard Nixon The Loser" : {
+    "Nixon The Loser" : {
         "image" : "https://i.imgur.com/qAjofFA.png",
         "description" : "As President Nixon lose re-election.",
     },
