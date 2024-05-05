@@ -11,8 +11,12 @@ campaignTrail_temp.achievements = {
         "description" : "As Frank Clement, win the Presidential election.",
     },
     "The Dallas Requiem" : {
+        "image" : "https://i.imgur.com/VXd0WuC.png",
+        "description" : "As President Nixon launch your re-election campaign in Dallas, Texas, and meet your maker.",
+    },
+    "Did You Hear That?" : {
         "image" : "https://i.imgur.com/5cgCjDz.jpeg",
-        "description" : "As President Nixon visit Dallas, Texas, and meet your maker.",
+        "description" : "As President Nixon launch your re-election campaign in Dallas, Texas, and survive.",
     },
     "8 Years Early" : {
         "image" : "https://i.imgur.com/b0xSyR6.png",
