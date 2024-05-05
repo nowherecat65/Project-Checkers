@@ -965,7 +965,7 @@ document.getElementById("header").src = "https://i.imgur.com/SJChc52.png"
         campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#E47F26";
        campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#BD2925";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Undecided";
-        unlockAchievement("Horn-Rimmed Glasses");
+        unlockAchievement("Minnesota Nice");
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Humphrey";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = 
 "https://i.imgur.com/CXdHaXu.png";
