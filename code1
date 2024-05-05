@@ -8,7 +8,7 @@ corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='2.15' color='whi
 campaignTrail_temp.achievements = {
     "Dawn of a Better Tommorow" : {
         "image" : "https://i.imgur.com/YoxZvr1.png",
-        "description" : "As Frank Clement, win the Presidential election.",
+        "description" : "As Frank Clement win the Presidency.",
     },
     "The Dallas Requiem" : {
         "image" : "https://i.imgur.com/VXd0WuC.png",
@@ -17,6 +17,10 @@ campaignTrail_temp.achievements = {
     "Did You Hear That?" : {
         "image" : "https://i.imgur.com/5cgCjDz.jpeg",
         "description" : "As President Nixon launch your re-election campaign in Dallas, Texas, and survive.",
+    },
+    "Clement's Close Call" : {
+        "image" : "https://i.imgur.com/z3LPjAl.png",
+        "description" : "As Frank Clement get close to winning the Presidency.",
     },
     "8 Years Early" : {
         "image" : "https://i.imgur.com/b0xSyR6.png",
