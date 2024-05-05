@@ -1,23 +1,19 @@
 campaignTrail_temp.achievements = {
-    "Three's a Party" : {
-        "image" : "https://i.imgur.com/PoIYyDa.png",
-        "description" : "As William Knowland, have 3 different men as your running mate in a single run and win.",
+    "We're A Winner" : {
+        "image" : "https://i.imgur.com/sEIU7tw.jpeg",
+        "description" : "As Frank Clement, win the Presidential election.",
     },
-    "This One's For The Record" : {
-        "image" : "https://i.imgur.com/Ytzm5R2.png",
-        "description" : "As William Knowland, achieve the canon result with Henry Cabot Lodge Jr. as your running mate.",
+    "Dallas 63" : {
+        "image" : "https://i.imgur.com/kQ7ugNe.png",
+        "description" : "As President Nixon, be assassinated, and complete the campaign as Lodge",
     },
-    "The Other Commonwealth" : {
-        "image" : "https://i.imgur.com/KtR6Pao.png",
-        "description" : "As John W. McCormack, win Virginia.",
+    "Richard Mandate Nixon" : {
+        "image" : "https://i.imgur.com/aC6X17b.jpeg",
+        "description" : "As President Nixon win an overwhelming landslide victory.",
     },
-    "Boston Beats Austin" : {
-        "image" : "https://i.imgur.com/0t18NF9.png",
-        "description" : "As John W. McCormack, pass an extensive civil rigths act and win 365 or more electoral votes.",
-    },
-    "Gideon's Return" : {
-        "image" : "https://i.imgur.com/kOu3zmq.png",
-        "description" : "As the secret candidate in 1956Red, win at least 316 electoral votes.",
+    "Horn-Rimmed Glasses" : {
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg",
+        "description" : "Win the Presidency as the secret, glasses-wearing Democrat.",
     },
 }
 musicMode = () => {
