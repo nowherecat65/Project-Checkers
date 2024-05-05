@@ -252,6 +252,7 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         let vpName = "George Smathers";
         campaignTrail_temp.running_mate_last_name = 'Smathers';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Szw9Okb.png';
+        unlockAchievement("Horn-Rimmed Glasses");
     }
     if(ans == 2616){
         console.log("done");
@@ -259,6 +260,7 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         let vpName = "George Smathers";
         campaignTrail_temp.running_mate_last_name = 'Smathers';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Szw9Okb.png';
+        unlockAchievement("Horn-Rimmed Glasses");
     }
     if(ans == 1612){
         console.log("done");
@@ -917,7 +919,6 @@ document.getElementById("header").src = "https://i.imgur.com/tAjtdGG.png"
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Pat";
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#3C65F6";
        campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#c7302c";
-       unlockAchievement("Horn-Rimmed Glasses");
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Brown";
         campaignTrail_temp.candidate_json[2]["fields"].advisor_url = 'https://i.imgur.com/xUut8wb.png';
         campaignTrail_temp.candidate_json[0]["fields"].advisor_url = 'https://i.imgur.com/xUut8wb.png';
