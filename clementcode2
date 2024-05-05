@@ -95,11 +95,6 @@ campaignTrail_temp.answer_feedback_flg = 1;
 
 campaignTrail_temp.game_start_logging_id = '3665034';
 
-function ctsAchievement(achievement, difficultyChecker = true){
-	if ((difficultyChecker && campaignTrail_temp.difficulty_level_multiplier<=1)||!difficultyChecker)
-		if(campaignTrail_temp.CTS){
-		unlockAchievement(achievement);
-
 
 
 
