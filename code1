@@ -325,6 +325,7 @@ campaignTrail_temp.achievements = {
     "Richard 'Mandate' Milhous Nixon" : {
         "image" : "https://i.imgur.com/aC6X17b.jpeg",
         "description" : "Win an overwhelming landslide victory as President Nixon. "
+        "cannotBeCheated" : true
     },
     "Horn-Rimmed Glasses" : {
         "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg",
