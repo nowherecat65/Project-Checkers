@@ -1,6 +1,6 @@
 campaignTrail_temp.achievements = {
     "Dawn of a Better Tommorow" : {
-        "image" : "https://i.imgur.com/YoxZvr1.png",
+        "image" : "https://i.imgur.com/95XeeJy.png",
         "description" : "As Frank Clement win the Presidency.",
     },
     "The Dallas Requiem" : {
@@ -8,7 +8,7 @@ campaignTrail_temp.achievements = {
         "description" : "As President Nixon launch your re-election campaign in Dallas, Texas, and meet your maker.",
     },
     "Did You Hear That?" : {
-        "image" : "https://i.imgur.com/5cgCjDz.jpeg",
+        "image" : "https://i.imgur.com/shaLSVO.png",
         "description" : "As President Nixon launch your re-election campaign in Dallas, Texas, and survive.",
     },
     "Clement's Close Call" : {
@@ -24,7 +24,7 @@ campaignTrail_temp.achievements = {
         "description" : "As President Nixon win a landslide re-election victory.",
     },
     "Nixon The Loser" : {
-        "image" : "https://i.imgur.com/qAjofFA.png",
+        "image" : "https://i.imgur.com/yhnyKi2.png",
         "description" : "As President Nixon lose re-election.",
     },
     "Dick Ambivalent" : {
@@ -36,11 +36,11 @@ campaignTrail_temp.achievements = {
         "description" : "As President Nixon narrowly win re-election.",
     },
     "Jumbo Deja Vu" : {
-        "image" : "https://i.imgur.com/DX3Nyqf.png",
+        "image" : "https://i.imgur.com/4eypuCk.png",
         "description" : "As President Nixon face LBJ in the general.",
     },
     "Horn-Rimmed Glasses" : {
-        "image" : "https://i.imgur.com/8jekVkA.png",
+        "image" : "https://i.imgur.com/1DGbNGr.png",
         "description" : "Unlock the Pat Brown side.",
     },
 }
