@@ -1478,7 +1478,7 @@ let vpName = "Everett Dirksen";
         }
       }
     }
-    if(ans == 8394){
+    if(ans == 8794){
       // HEAL HAPPENS (MIDTERM) QUESTION 5
       campaignTrail_temp.questions_json[10] = {
         "model": "campaign_trail.question",
