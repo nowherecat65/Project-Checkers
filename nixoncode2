@@ -148,7 +148,7 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Milquetoast";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Democrat";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Undecided";
-        e.election_json[id].fields.has_visits = 0;
+        e.election_json[0].fields.has_visits = 0;
 }
     if(ans == 7529){
         unlockAchievement("Did You Hear That?");
@@ -158,7 +158,7 @@ document.head.appendChild(style_overwrite);
         document.body.background = "https://i.imgur.com/LPyaChZ.png"
         document.getElementById("header").src = "https://i.imgur.com/RyF99Lq.png"
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Clement";
-        e.election_json[id].fields.has_visits = 1;
+        e.election_json[0].fields.has_visits = 1;
 }
     if(ans == 7326){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon B.";
@@ -168,7 +168,7 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/tkOQ0op.png";
         document.body.background = "https://i.imgur.com/rvuG8wJ.png"
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Johnson";
-        e.election_json[id].fields.has_visits = 1;
+        e.election_json[0].fields.has_visits = 1;
 }
     if(ans == 2324){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Robert F.";
@@ -187,7 +187,7 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/tkOQ0op.png";
         document.body.background = "https://i.imgur.com/rvuG8wJ.png"
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Johnson";
-        e.election_json[id].fields.has_visits = 1;
+        e.election_json[0].fields.has_visits = 1;
 }
     if(ans == 7324){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon B.";
@@ -197,39 +197,39 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/tkOQ0op.png";
         document.body.background = "https://i.imgur.com/rvuG8wJ.png"
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Johnson";
-        e.election_json[id].fields.has_visits = 1;
+        e.election_json[0].fields.has_visits = 1;
 }
     if(ans == 3325){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Frank";
         document.getElementById("header").src = "https://i.imgur.com/RyF99Lq.png"
         document.body.background = "https://i.imgur.com/LPyaChZ.png"
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Clement";
-        e.election_json[id].fields.has_visits = 1;
+        e.election_json[0].fields.has_visits = 1;
 }
     if(ans == 3324){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Frank";
         document.getElementById("header").src = "https://i.imgur.com/RyF99Lq.png"
         document.body.background = "https://i.imgur.com/LPyaChZ.png"
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Clement";
-        e.election_json[id].fields.has_visits = 1;
+        e.election_json[0].fields.has_visits = 1;
 }
     if(ans == 1261){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Milquetoast";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Democrat";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Undecided";
-        e.election_json[id].fields.has_visits = 0;
+        e.election_json[0].fields.has_visits = 0;
 }
     if(ans == 1260){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Milquetoast";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Democrat";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Undecided";
-        e.election_json[id].fields.has_visits = 0;
+        e.election_json[0].fields.has_visits = 0;
 }
     if(ans == 1259){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Milquetoast";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Democrat";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Undecided";
-        e.election_json[id].fields.has_visits = 0;
+        e.election_json[0].fields.has_visits = 0;
 }
     if(ans == 3344){
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Clarence";
@@ -252,17 +252,17 @@ document.head.appendChild(style_overwrite);
     if(ans == 7831){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Orval";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Faubus";
-        e.election_json[id].fields.has_visits = 1;
+        e.election_json[0].fields.has_visits = 1;
 }
     if(ans == 7832){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Orval";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Faubus";
-        e.election_json[id].fields.has_visits = 1;
+        e.election_json[0].fields.has_visits = 1;
 }
     if(ans == 7833){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Orval";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Faubus";
-        e.election_json[id].fields.has_visits = 1;
+        e.election_json[0].fields.has_visits = 1;
 }
     if(ans == 3555){
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Clarence";
