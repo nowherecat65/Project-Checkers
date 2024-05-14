@@ -260,7 +260,7 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Pauling";
        campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#8c28f2";
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Linus";
-        campaignTrail_temp.question_number = 38;
+        campaignTrail_temp.question_number = 36;
 }
     if(ans == 7832){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Orval";
