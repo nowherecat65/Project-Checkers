@@ -254,6 +254,13 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Faubus";
         e.election_json[0].fields.has_visits = 1;
 }
+    if(ans == 8261){
+        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Orval";
+        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Faubus";
+        campaignTrail_temp.candidate_json[6]["fields"].last_name = "Pauling";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#8c28f2";
+        campaignTrail_temp.candidate_json[6]["fields"].first_name = "Linus";
+}
     if(ans == 7832){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Orval";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Faubus";
