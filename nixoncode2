@@ -92,6 +92,8 @@ setInterval(checkIfCanAddMap, 250);
 
 campaignTrail_temp.running_mate_state_id = '201';
 
+e.multiple_endings = true;
+
 campaignTrail_temp.player_answers = [];
 
 campaignTrail_temp.player_visits = [];
