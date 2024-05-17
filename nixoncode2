@@ -2896,9 +2896,3 @@ setMusic("https://od.lk/s/M18zMDE5NjcwMTNf/We%27re%20A%20Winner.mp3")
 }
 
 campaignTrail_temp.multiple_endings=true
-
-const gameWindowNode = document.getElementById("game_window");
-const candidateWatcherConfig = { attributes: true, childList: true, subtree: true };
-
-const candidateObserver = new MutationObserver(onGameWindowChangeCandidates);
-candidateObserver.observe(gameWindowNode, candidateWatcherConfig);
