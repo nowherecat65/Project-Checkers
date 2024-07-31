@@ -156,9 +156,9 @@ function switcheroo33() {
     e.election_json[0].fields.has_visits = 1;
 }
 function switcheroo34() {
-    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/bWN90oi.jpg';
-    campaignTrail_temp.running_mate_last_name = 'Pastore';
-    campaignTrail_temp.running_mate_first_name = 'John';
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/MogHvuX.png';
+    campaignTrail_temp.running_mate_last_name = 'Meyner';
+    campaignTrail_temp.running_mate_first_name = 'Robert';
     campaignTrail_temp.candidate_last_name = 'Clement';
     let vpName = "John Pastore";
     e.election_json[0].fields.has_visits = 1;
