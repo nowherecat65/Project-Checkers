@@ -164,7 +164,7 @@ document.head.appendChild(style_overwrite);
 }
     if(ans == 7326){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon B.";
-        document.getElementById("header").src = "https://i.imgur.com/5xy7MGl.png"
+        document.getElementById("header").src = "https://i.imgur.com/ALNbU84.png"
         unlockAchievement("Jumbo Deja Vu");
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2d48d7";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/tkOQ0op.png";
