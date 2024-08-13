@@ -36,7 +36,7 @@ document.body.background = "https://i.imgur.com/MvaNn5i.png"
 
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/QUsni2E.jpg';
 
-document.getElementById("header").src = "https://i.imgur.com/WMkG495.png"
+document.getElementById("header").src = "https://i.imgur.com/ou8OwYP.png"
 
 campaignTrail_temp.candidate_last_name = 'Nixon';
 
