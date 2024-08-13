@@ -36,7 +36,7 @@ document.body.background = "https://i.imgur.com/MvaNn5i.png"
 
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/QUsni2E.jpg';
 
-document.getElementById("header").src = "https://i.imgur.com/5txtJmk.png"
+document.getElementById("header").src = "https://i.imgur.com/WMkG495.png"
 
 campaignTrail_temp.candidate_last_name = 'Nixon';
 
@@ -180,7 +180,7 @@ document.head.appendChild(style_overwrite);
 }
     if(ans == 2324){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Robert F.";
-        document.getElementById("header").src = "https://i.imgur.com/5xy7MGl.png"
+        document.getElementById("header").src = "https://i.imgur.com/qDdri6B.png"
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#132CA5";
         campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#C61C19";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/myrOqXw.png";
@@ -189,7 +189,7 @@ document.head.appendChild(style_overwrite);
 }
     if(ans == 7325){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon B.";
-        document.getElementById("header").src = "https://i.imgur.com/5xy7MGl.png"
+        document.getElementById("header").src = "https://i.imgur.com/qDdri6B.png"
         unlockAchievement("Jumbo Deja Vu");
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2d48d7";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/tkOQ0op.png";
@@ -202,7 +202,7 @@ document.head.appendChild(style_overwrite);
 }
     if(ans == 7324){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Lyndon B.";
-        document.getElementById("header").src = "https://i.imgur.com/5xy7MGl.png"
+        document.getElementById("header").src = "https://i.imgur.com/qDdri6B.png"
         unlockAchievement("Jumbo Deja Vu");
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2d48d7";
         campaignTrail_temp.candidate_json[2]["fields"].image_url = "https://i.imgur.com/tkOQ0op.png";
