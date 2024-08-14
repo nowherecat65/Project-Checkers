@@ -358,6 +358,16 @@ e = campaignTrail_temp;
 
 document.getElementById("header").src = "https://i.imgur.com/ou8OwYP.png"
 
+const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #C9C9C9; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://i.imgur.com/Ok791w6.png");
+    }
+
 document.styleSheets[0].insertRule(".game_header{ height:4.5em !important;}", 0);
 document.styleSheets[0].insertRule("#game_window{ height:45em !important;}", 0);
 
