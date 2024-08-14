@@ -376,6 +376,14 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
 $(".footer a").css({"color":"#ffffff"});
 nct_stuff.themes[nct_stuff.selectedTheme].text_col = "#ffffff"
 
+  corrr = `
+  <div style="font-size: 11px; font-family: monospace; color: white;">
+    <h2 style="font-style: normal;">
+      <img src="https://i.imgur.com/CKxWLJU.gif" alt="AMERICAN CARNAGE" style="margin-top: 5px;">
+    </h2>
+  </div>
+  `;
+
 campaignTrail_temp.modBoxTheme = {
      "header_color": "#393647",
      "header_text_color": "#f4e5e5",
