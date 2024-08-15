@@ -356,7 +356,7 @@ function newMusicPlayer() {
 
 e = campaignTrail_temp;
 
-document.getElementById("header").src = "https://i.imgur.com/ou8OwYP.png"
+document.getElementById("header").src = "https://i.imgur.com/WCslxju.gif"
 
 document.styleSheets[0].insertRule(".game_header{ height:4.5em !important;}", 0);
 document.styleSheets[0].insertRule("#game_window{ height:45em !important;}", 0);
@@ -452,7 +452,7 @@ $(".container")[0].style.backgroundColor = "#AD2D2F"
 credits = function() {
 
 
-   c = ["WRITTEN BY .theanswerisme, u/ARC-7652, Justanormalguyok. CODED BY: .theanswerisme", "", "Banner created by whatnamedidiuseagain. Thanks to all the playtesters, and the TCT community as a whole."]
+   c = ["WRITTEN BY .theanswerisme, u/ARC-7652, Justanormalguyok. CODED BY: .theanswerisme", "", "Banners created by whatnamedidiuseagain. Thanks to all the playtesters, and the TCT community as a whole."]
 
 
    text = "CREDITS:\n\n"
