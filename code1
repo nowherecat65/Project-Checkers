@@ -379,7 +379,7 @@ nct_stuff.themes[nct_stuff.selectedTheme].text_col = "#ffffff"
   corrr = `
   <div style="font-size: 11px; font-family: monospace; color: white;">
     <h2 style="font-style: normal;">
-      <img src="https://i.imgur.com/s6EI1lB.gif" alt="1964N" style="margin-top: 0.1px;">
+      <img src="https://i.imgur.com/Qnsmjiu.gif" alt="1964N" style="margin-top: 0.1px;">
     </h2>
   </div>
   `;
