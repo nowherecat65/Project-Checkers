@@ -452,7 +452,7 @@ $(".container")[0].style.backgroundColor = "#AD2D2F"
 credits = function() {
 
 
-   c = ["WRITTEN BY .theanswerisme, u/ARC-7652, Justanormalguyok. CODED BY: .theanswerisme", "", "Banners created by whatnamedidiuseagain. Thanks to all the playtesters, and the TCT community as a whole."]
+   c = ["WRITTEN BY .theanswerisme, u/ARC-7652, Justanormalguyok. CODED BY: .theanswerisme", "", "Banners created by whatnamedidiuseagain. Thanks to all the playtesters, and the TCT community as a whole.", "","Preeeeeeeeeeeee"]
 
 
    text = "CREDITS:\n\n"
