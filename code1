@@ -356,7 +356,7 @@ function newMusicPlayer() {
 
 e = campaignTrail_temp;
 
-document.getElementById("header").src = "https://i.imgur.com/WCslxju.gif"
+document.getElementById("header").src = "https://i.imgur.com/oSGmOXU.png"
 
 document.styleSheets[0].insertRule(".game_header{ height:4.5em !important;}", 0);
 document.styleSheets[0].insertRule("#game_window{ height:45em !important;}", 0);
