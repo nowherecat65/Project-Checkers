@@ -110,6 +110,7 @@ function switcheroo1() {
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Gd5pj6k.png';
     campaignTrail_temp.running_mate_last_name = 'Humphrey';
     campaignTrail_temp.running_mate_first_name = 'Hubert';
+    campaignTrail_temp.running_mate_state_id = '203';
     campaignTrail_temp.candidate_last_name = 'Clement';
     let vpName = "Hubert Humphrey";
     e.election_json[0].fields.has_visits = 1;
@@ -119,6 +120,7 @@ function switcheroo111() {
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/4IPidpv.png';
     campaignTrail_temp.running_mate_last_name = 'Hart';
     campaignTrail_temp.running_mate_first_name = 'Philip';
+    campaignTrail_temp.running_mate_state_id = '202';
     campaignTrail_temp.candidate_last_name = 'Clement';
     let vpName = "Phillip Hart";
     e.election_json[0].fields.has_visits = 1;
@@ -128,6 +130,7 @@ function switcheroo2() {
     campaignTrail_temp.running_mate_last_name = 'Patterson';
     campaignTrail_temp.candidate_last_name = 'Clement';
     campaignTrail_temp.running_mate_first_name = 'John M.';
+    campaignTrail_temp.running_mate_state_id = '181';
     let vpName = "John M. Patterson";
     e.election_json[0].fields.has_visits = 1;
 }
@@ -136,6 +139,7 @@ function switcheroo222() {
     campaignTrail_temp.running_mate_last_name = 'Davis';
     campaignTrail_temp.candidate_last_name = 'Clement';
     campaignTrail_temp.running_mate_first_name = 'James C.';
+    campaignTrail_temp.running_mate_state_id = '190';
     let vpName = "James C. Davis";
     e.election_json[0].fields.has_visits = 1;
 }
@@ -143,6 +147,7 @@ function switcheroo3() {
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/kjsFZEi.jpeg';
     campaignTrail_temp.running_mate_last_name = 'Ribicoff';
     campaignTrail_temp.running_mate_first_name = 'Abraham';
+    campaignTrail_temp.running_mate_state_id = '187';
     campaignTrail_temp.candidate_last_name = 'Clement';
     let vpName = "Abraham Ribicoff";
     e.election_json[0].fields.has_visits = 1;
@@ -151,6 +156,7 @@ function switcheroo33() {
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/aFtfNZm.png';
     campaignTrail_temp.running_mate_last_name = 'Lausche';
     campaignTrail_temp.running_mate_first_name = 'Frank';
+    campaignTrail_temp.running_mate_state_id = '215';
     campaignTrail_temp.candidate_last_name = 'Clement';
     let vpName = "Frank Lausche";
     e.election_json[0].fields.has_visits = 1;
@@ -159,6 +165,7 @@ function switcheroo34() {
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/bWN90oi.jpg';
     campaignTrail_temp.running_mate_last_name = 'Pastore';
     campaignTrail_temp.running_mate_first_name = 'John';
+    campaignTrail_temp.running_mate_state_id = '219';
     campaignTrail_temp.candidate_last_name = 'Clement';
     let vpName = "John Pastore";
     e.election_json[0].fields.has_visits = 1;
@@ -166,6 +173,7 @@ function switcheroo34() {
 function switcheroo6() {
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/U7P1dty.jpg';
     campaignTrail_temp.running_mate_last_name = 'McCarthy';
+    campaignTrail_temp.running_mate_state_id = '203';
     campaignTrail_temp.running_mate_first_name = 'Eugene';
     campaignTrail_temp.candidate_last_name = 'Brown';
     let vpName = "Eugene McCarthy";
@@ -269,6 +277,7 @@ document.getElementById("header").src = "https://i.imgur.com/K9jcPU2.gif"
         let vpName = "George Smathers";
         e.election_json[0].fields.has_visits = 1;
         campaignTrail_temp.running_mate_last_name = 'Smathers';
+        campaignTrail_temp.running_mate_state_id = '189';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Szw9Okb.png';
     }
     if(ans == 2616){
@@ -277,6 +286,7 @@ document.getElementById("header").src = "https://i.imgur.com/K9jcPU2.gif"
         let vpName = "George Smathers";
         e.election_json[0].fields.has_visits = 1;
         campaignTrail_temp.running_mate_last_name = 'Smathers';
+        campaignTrail_temp.running_mate_state_id = '189';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Szw9Okb.png';
     }
     if(ans == 1612){
@@ -285,6 +295,7 @@ document.getElementById("header").src = "https://i.imgur.com/K9jcPU2.gif"
         let vpName = "Philip Hart";
         e.election_json[0].fields.has_visits = 1;
         campaignTrail_temp.running_mate_last_name = 'Hart';
+        campaignTrail_temp.running_mate_state_id = '202';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/4IPidpv.png';
     }
     if(ans == 4439){
@@ -292,6 +303,7 @@ document.getElementById("header").src = "https://i.imgur.com/K9jcPU2.gif"
         campaignTrail_temp.running_mate_first_name = 'Stuart';
         let vpName = "Stuart Symington";
         e.election_json[0].fields.has_visits = 1;
+        campaignTrail_temp.running_mate_state_id = '205';
         campaignTrail_temp.running_mate_last_name = 'Symington';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Pl2FvUZ.jpg';
     }
@@ -301,6 +313,7 @@ document.getElementById("header").src = "https://i.imgur.com/K9jcPU2.gif"
         let vpName = "Terry Sanford";
         e.election_json[0].fields.has_visits = 1;
         campaignTrail_temp.running_mate_last_name = 'Sanford';
+        campaignTrail_temp.running_mate_state_id = '213';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/VmYR2I6.png';
     }
     if(ans == 7439){
@@ -309,6 +322,7 @@ document.getElementById("header").src = "https://i.imgur.com/K9jcPU2.gif"
         let vpName = "Wayne Morse";
         e.election_json[0].fields.has_visits = 1;
         campaignTrail_temp.running_mate_last_name = 'Morse';
+        campaignTrail_temp.running_mate_state_id = '217';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/rI6O3Sc.png';
     }
     if(ans == 1013){
@@ -317,12 +331,14 @@ document.getElementById("header").src = "https://i.imgur.com/K9jcPU2.gif"
         let vpName = "Hubert Humphrey";
         e.election_json[0].fields.has_visits = 1;
         campaignTrail_temp.running_mate_last_name = 'Humphrey';
+        campaignTrail_temp.running_mate_state_id = '203';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Gd5pj6k.png';
     }
     if(ans == 4114){
         console.log("done");
         campaignTrail_temp.running_mate_first_name = 'Frank';
         let vpName = "Frank Clement";
+        campaignTrail_temp.running_mate_state_id = '222';
         e.election_json[0].fields.has_visits = 1;
         campaignTrail_temp.running_mate_last_name = 'Clement';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/dLIj9I4.jpg';
