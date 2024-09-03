@@ -265,7 +265,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.candidate_json[2]["fields"].image_url = 
 "https://i.imgur.com/DJSK5A1.png";
          document.body.background = "https://i.imgur.com/M0tKnnS.png";
-document.getElementById("header").src = "https://i.imgur.com/K9jcPU2.gif"
+document.getElementById("header").src = "https://i.imgur.com/cC80YfV.png"
         campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/DJSK5A1.png';
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/SpKBRVO.jpg';
     campaignTrail_temp.running_mate_last_name = 'For President!';
@@ -968,7 +968,7 @@ document.getElementById("header").src = "https://i.imgur.com/K9jcPU2.gif"
         campaignTrail_temp.candidate_json[2]["fields"].image_url = 
 "https://i.imgur.com/DJSK5A1.png";
          document.body.background = "https://i.imgur.com/M0tKnnS.png";
-document.getElementById("header").src = "https://i.imgur.com/K9jcPU2.gif"
+document.getElementById("header").src = "https://i.imgur.com/cC80YfV.png"
         campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/DJSK5A1.png';
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/SpKBRVO.jpg';
     campaignTrail_temp.running_mate_last_name = 'For President!';
