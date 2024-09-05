@@ -171,7 +171,7 @@ function switcheroo34() {
     e.election_json[0].fields.has_visits = 1;
 }
 function switcheroo6() {
-    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/U7P1dty.jpg';
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/R9ZprdN.jpeg';
     campaignTrail_temp.running_mate_last_name = 'McCarthy';
     campaignTrail_temp.running_mate_first_name = 'Eugene';
     campaignTrail_temp.candidate_last_name = 'Brown';
