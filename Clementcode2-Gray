@@ -153,7 +153,7 @@ function switcheroo3() {
     e.election_json[0].fields.has_visits = 1;
 }
 function switcheroo33() {
-    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/qZ2Z0wz.jpeg';
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/jXA5Orp.jpeg';
     campaignTrail_temp.running_mate_last_name = 'Dingell';
     campaignTrail_temp.running_mate_first_name = 'John';
     campaignTrail_temp.candidate_last_name = 'Clement';
