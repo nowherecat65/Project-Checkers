@@ -35,7 +35,7 @@ $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/FJjQ79n.pn
 
 $("#game_window")[0].style.backgroundSize = "cover"; 
 
-campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/tnirP0g.png';
+campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/9MA2NOj.jpeg';
 
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/0aYXTcj.jpg';
 
