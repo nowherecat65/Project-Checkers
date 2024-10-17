@@ -452,7 +452,7 @@ $(".container")[0].style.backgroundColor = "#AD2D2F"
 credits = function() {
 
 
-   c = ["WRITTEN BY .theanswerisme, u/ARC-7652, Justanormalguyok, cobalt, History Lover, evasium.", "", "CODED BY: .theanswerisme", "", "Banners created by whatnamedidiuseagain. Thanks to all the playtesters, and the TCT community as a whole.", "","This is a creative and dramatized take on what might have happened if Nixon had won the Presidency in 1960. The mod team does not claim this as an objective prediction of events."]
+   c = ["WRITTEN BY .theanswerisme, u/ARC-7652, Justanormalguyok, cobalt, History Lover, evasium.", "", "CODED BY: .theanswerisme", "", "Banners created by whatnamedidiuseagain. Thanks to all the playtesters, and the TCT community as a whole.", "","This is a creative and dramatized take on what might have happened if Nixon had won the Presidency in 1960. The mod team does not claim it is an objective prediction of events."]
 
 
    text = "CREDITS:\n\n"
