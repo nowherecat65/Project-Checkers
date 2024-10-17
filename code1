@@ -553,7 +553,7 @@ campaignTrail_temp.opponents_weighted_json = JSON.parse("[{\"election\": 20, \"c
 
 
 
-HistHexcolour=["#b22b27","#1E48D7","#f28c28","#74C365"]; HistName=[" Richard Nixon"," Frank Clement"," Clarence Manion"," Other Candidates"]; HistEV=[433,90,15,0]; HistPV=["36,446,853","31,793,142","2,710,447","298,262"]; HistPVP=["51.2%","44.6%","3.8%","0.4%"];
+HistHexcolour=["#b22b27","#1E48D7","#f28c28","#74C365"]; HistName=[" Richard Nixon"," Frank Clement"," Clarence Manion"," Other Candidates"]; HistEV=[433,90,15,0]; HistPV=["36,569,509","31,966,152","2,659,154","312,031"]; HistPVP=["51.1%","44.7%","3.7%","0.4%"];
 
 var thing = setInterval(() => {
         if (campaignTrail_temp.candidate_state_multiplier_json && campaignTrail_temp.candidate_state_multiplier_json.map(f=>f.fields.candidate).indexOf(299) < 0) {
