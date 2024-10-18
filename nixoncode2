@@ -115,7 +115,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.multiple_endings=false
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2e51c5";
        campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#BD272B";
-        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/pfnA1pu.png';
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/PF0Fc0v.png';
         campaignTrail_temp.candidate_last_name = 'President';
         unlockAchievement("The Dallas Requiem");
         campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/HOprpJO.png';
