@@ -2324,7 +2324,7 @@ let vpName = "Everett Dirksen";
         "pk": 12677,
         "fields": {
           "priority": 1,
-          "description": "President Lodge - though the Gallup polls have you ahead of Faubus by about 45%, you are still scheduled for your first regional tour of the campaign season. That also means it’s time to write a stump speech. What key points and themes would you like to prioritize as you collaborate with speechwriters in the brainstorming process?",
+          "description": "President Lodge - though the Gallup polls have you ahead of Faubus by about 30%, you are still scheduled for your first regional tour of the campaign season. That also means it’s time to write a stump speech. What key points and themes would you like to prioritize as you collaborate with speechwriters in the brainstorming process?",
           "likelihood": 1
         }
       }
