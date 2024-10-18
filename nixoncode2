@@ -2696,7 +2696,7 @@ let vpName = "Everett Dirksen";
         "pk": 40337,
         "fields": {
           "priority": 1,
-          "description": "(NOVEMBER 1963) Sir, a few days ago, Lee Harvey Oswald, the assassin of President Nixon, was himself killed by Jack Ruby while being transported to jail. The Dallas police have closed the case, leaving an official investigation in limbo. Some GOP backbenchers are calling for an independent congressional investigation. You're currently in a meeting with Attorney General William P. Rodgers, who is proposing an Executive Order to establish an investigational commission. This would grant you the authority to select the members, set the agenda, and determine the timeframe of the investigation. What are your thoughts, Mr. President?",
+          "description": "(NOVEMBER 1963) A few days ago, Lee Harvey Oswald, the assassin of President Nixon, was himself killed by Jack Ruby while being transported to jail. The Dallas police have closed the case, leaving an official investigation in limbo. Some GOP backbenchers are calling for an independent congressional investigation. You're currently in a meeting with Attorney General William P. Rodgers, and your brother, John, who are proposing an Executive Order to establish an investigational commission. This would grant you the authority to select the members, set the agenda, and determine the timeframe of the investigation. Should we go ahead with it? ",
           "likelihood": 1
         }
       }
@@ -2708,7 +2708,7 @@ let vpName = "Everett Dirksen";
         "pk": 40337,
         "fields": {
           "priority": 1,
-          "description": "(NOVEMBER 1963) Sir, a few days ago, Lee Harvey Oswald, the assassin of President Nixon, was himself killed by Jack Ruby while being transported to jail. The Dallas police have closed the case, leaving an official investigation in limbo. Some GOP backbenchers are calling for an independent congressional investigation. You're currently in a meeting with Attorney General William P. Rodgers, who is proposing an Executive Order to establish an investigational commission. This would grant you the authority to select the members, set the agenda, and determine the timeframe of the investigation. What are your thoughts, Mr. President?",
+          "description": "(NOVEMBER 1963) A few days ago, Lee Harvey Oswald, the assassin of President Nixon, was himself killed by Jack Ruby while being transported to jail. The Dallas police have closed the case, leaving an official investigation in limbo. Some GOP backbenchers are calling for an independent congressional investigation. You're currently in a meeting with Attorney General William P. Rodgers, and your brother, John, who are proposing an Executive Order to establish an investigational commission. This would grant you the authority to select the members, set the agenda, and determine the timeframe of the investigation. Should we go ahead with it?",
           "likelihood": 1
         }
       }
@@ -2720,7 +2720,7 @@ let vpName = "Everett Dirksen";
         "pk": 40337,
         "fields": {
           "priority": 1,
-          "description": "(NOVEMBER 1963) Sir, a few days ago, Lee Harvey Oswald, the assassin of President Nixon, was himself killed by Jack Ruby while being transported to jail. The Dallas police have closed the case, leaving an official investigation in limbo. Some GOP backbenchers are calling for an independent congressional investigation. You're currently in a meeting with Attorney General William P. Rodgers, who is proposing an Executive Order to establish an investigational commission. This would grant you the authority to select the members, set the agenda, and determine the timeframe of the investigation. What are your thoughts, Mr. President?",
+          "description": "(NOVEMBER 1963) A few days ago, Lee Harvey Oswald, the assassin of President Nixon, was himself killed by Jack Ruby while being transported to jail. The Dallas police have closed the case, leaving an official investigation in limbo. Some GOP backbenchers are calling for an independent congressional investigation. You're currently in a meeting with Attorney General William P. Rodgers, and your brother, John, who are proposing an Executive Order to establish an investigational commission. This would grant you the authority to select the members, set the agenda, and determine the timeframe of the investigation. Should we go ahead with it?",
           "likelihood": 1
         }
       }
