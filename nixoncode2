@@ -2612,7 +2612,7 @@ let vpName = "Everett Dirksen";
         "pk": 70037,
         "fields": {
           "priority": 1,
-          "description": "(MARCH 1964) Mr. President, following the bombing of the Independence Palace in Vietnam and the death of President Diem, the situation in the Republic has escalated. And following the highly publicized, month-long Viet-Kong occupation of all of the Mekong Delta, there's a growing bipartisan, though not unanimous, call for an increased U.S. presence. Do you have any thoughts on this, sir.’?",
+          "description": "(MARCH 1964) Mr. President, following the bombing of the Independence Palace in Vietnam and the death of President Diem, the situation in the Republic has escalated. And following the highly publicized, month-long Viet-Kong occupation of all of the Mekong Delta, there's a growing bipartisan, though not unanimous, call for an increased U.S. presence. Do you have any thoughts on this, sir?",
           "likelihood": 1
         }
       }
