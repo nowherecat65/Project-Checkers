@@ -768,13 +768,6 @@ let vpName = "Everett Dirksen";
           "priority": 1,
           "description": "Breaking news from the Soviet Union: Nikita Krushchev has been replaced by Alexei Kosygin as General Secretary, as a result of an apparent loss in confidence. With this massive change in the geopolitical situation, how would you like to address the Soviet Union?",
           "likelihood": 1
-      campaignTrail_temp.questions_json[30] = {
-        "model": "campaign_trail.question",
-        "pk": 920,
-        "fields": {
-          "priority": 1,
-          "description": "Another day, another speech, this time in Los Angeles, California. What would you like to say to the thousands in attendance?",
-          "likelihood": 1
         }
       }
     }
