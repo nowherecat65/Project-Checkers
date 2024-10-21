@@ -721,6 +721,18 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+	if(ans == 9363){
+      // HEAL HAPPENS (MIDTERM) QUESTION 25
+      campaignTrail_temp.questions_json[30] = {
+        "model": "campaign_trail.question",
+        "pk": 920,
+        "fields": {
+          "priority": 1,
+          "description": "Another day, another speech, this time in Los Angeles, California. What would you like to say to the thousands in attendance?",
+          "likelihood": 1
+        }
+      }
+    }
 	if(ans == 9361){
       // HEAL HAPPENS (MIDTERM) QUESTION 24
       campaignTrail_temp.questions_json[29] = {
