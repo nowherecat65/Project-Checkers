@@ -28,6 +28,8 @@ campaignTrail_temp.answer_feedback_json = JSON.parse("[{\"model\": \"campaign_tr
 
 $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/lNFzgv5.png)"
 
+campaignTrail_temp.candidate_json[2]["fields"].last_name = "Do-Nothing Democrat";
+
 $("#game_window")[0].style.backgroundSize = "cover"; 
 
 campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/AAMeLB9.png';
