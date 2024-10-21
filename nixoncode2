@@ -2775,7 +2775,7 @@ let vpName = "Everett Dirksen";
     }
     if(ans == 4264){
       // HELL HAPPENS
-      campaignTrail_temp.questions_json[4] = {
+      campaignTrail_temp.questions_json[3] = {
         "model": "campaign_trail.question",
         "pk": 400371,
         "fields": {
