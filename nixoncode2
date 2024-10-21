@@ -2089,6 +2089,34 @@ let vpName = "Everett Dirksen";
           "description": "Recently, ‘Affirmative Action’, a program that would require businesses to adopt a Black quota, has become a major topic of tense political discussion within both pro-civil rights and segregationist circles alike. In the wake of the Civil Rights Act, expectations loom large. What stance will you take on this contentious issue?",
           "likelihood": 1
         }
+      campaignTrail_temp.questions_json[29] = {
+        "model": "campaign_trail.question",
+        "pk": 31999,
+        "fields": {
+          "priority": 1,
+          "description": "Another day, another speech, this time in Norfolk, Virginia. What would you like to say to the thousands in attendance?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 3762){
+      // HELL HAPPENS NINETEEN
+      campaignTrail_temp.questions_json[28] = {
+        "model": "campaign_trail.question",
+        "pk": 31899,
+        "fields": {
+          "priority": 1,
+          "description": "Recently, ‘Affirmative Action’, a program that would require businesses to adopt a Black quota, has become a major topic of tense political discussion within both pro-civil rights and segregationist circles alike. In the wake of the Civil Rights Act, expectations loom large. What stance will you take on this contentious issue?",
+          "likelihood": 1
+        }
+      campaignTrail_temp.questions_json[29] = {
+        "model": "campaign_trail.question",
+        "pk": 31999,
+        "fields": {
+          "priority": 1,
+          "description": "Another day, another speech, this time in Norfolk, Virginia. What would you like to say to the thousands in attendance?",
+          "likelihood": 1
+        }
       }
     }
     if(ans == 3759){
