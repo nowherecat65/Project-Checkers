@@ -2116,6 +2116,30 @@ let vpName = "Everett Dirksen";
       }
     }
     if(ans == 3763){
+      // HELL HAPPENS TWENTY
+      campaignTrail_temp.questions_json[29] = {
+        "model": "campaign_trail.question",
+        "pk": 31999,
+        "fields": {
+          "priority": 1,
+          "description": "Another day, another speech, this time in Norfolk, Virginia. What would you like to say to the thousands in attendance?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 3762){
+      // HELL HAPPENS TWENTY
+      campaignTrail_temp.questions_json[29] = {
+        "model": "campaign_trail.question",
+        "pk": 31999,
+        "fields": {
+          "priority": 1,
+          "description": "Another day, another speech, this time in Norfolk, Virginia. What would you like to say to the thousands in attendance?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 3763){
       // HELL HAPPENS NINETEEN
       campaignTrail_temp.questions_json[28] = {
         "model": "campaign_trail.question",
