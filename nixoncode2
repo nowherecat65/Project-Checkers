@@ -904,6 +904,42 @@ let vpName = "Everett Dirksen";
       }
     }
 	if(ans == 9921){
+      // HEAL HAPPENS (MIDTERM) QUESTION 22
+      campaignTrail_temp.questions_json[27] = {
+        "model": "campaign_trail.question",
+        "pk": 917,
+        "fields": {
+          "priority": 1,
+          "description": "In the future, would you appoint federal judges who support the decision <em>Engel v. Vitale</em> outlawing mandatory school prayer?",
+          "likelihood": 1
+        }
+      }
+    }
+	if(ans == 9920){
+      // HEAL HAPPENS (MIDTERM) QUESTION 22
+      campaignTrail_temp.questions_json[27] = {
+        "model": "campaign_trail.question",
+        "pk": 917,
+        "fields": {
+          "priority": 1,
+          "description": "In the future, would you appoint federal judges who support the decision <em>Engel v. Vitale</em> outlawing mandatory school prayer?",
+          "likelihood": 1
+        }
+      }
+    }
+	if(ans == 9919){
+      // HEAL HAPPENS (MIDTERM) QUESTION 22
+      campaignTrail_temp.questions_json[27] = {
+        "model": "campaign_trail.question",
+        "pk": 917,
+        "fields": {
+          "priority": 1,
+          "description": "In the future, would you appoint federal judges who support the decision <em>Engel v. Vitale</em> outlawing mandatory school prayer?",
+          "likelihood": 1
+        }
+      }
+    }
+	if(ans == 9921){
       // HEAL HAPPENS (MIDTERM) QUESTION 21
       campaignTrail_temp.questions_json[26] = {
         "model": "campaign_trail.question",
@@ -2308,6 +2344,42 @@ let vpName = "Everett Dirksen";
       }
     }
     if(ans == 4742){
+      // HELL HAPPENS FIFTEEN
+      campaignTrail_temp.questions_json[24] = {
+        "model": "campaign_trail.question",
+        "pk": 32477,
+        "fields": {
+          "priority": 1,
+          "description": "Starting during the Eisenhower administration, and continuing into the Nixon-Lodge years, the so-called ‘Space Race’ has captivated the nation, with exciting advancements, such as the establishment of NASA. How would you like to address it on the campaign trail",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 5741){
+      // HELL HAPPENS FIFTEEN
+      campaignTrail_temp.questions_json[24] = {
+        "model": "campaign_trail.question",
+        "pk": 32477,
+        "fields": {
+          "priority": 1,
+          "description": "Starting during the Eisenhower administration, and continuing into the Nixon-Lodge years, the so-called ‘Space Race’ has captivated the nation, with exciting advancements, such as the establishment of NASA. How would you like to address it on the campaign trail",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 5742){
+      // HELL HAPPENS FIFTEEN
+      campaignTrail_temp.questions_json[24] = {
+        "model": "campaign_trail.question",
+        "pk": 32477,
+        "fields": {
+          "priority": 1,
+          "description": "Starting during the Eisenhower administration, and continuing into the Nixon-Lodge years, the so-called ‘Space Race’ has captivated the nation, with exciting advancements, such as the establishment of NASA. How would you like to address it on the campaign trail",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 5743){
       // HELL HAPPENS FIFTEEN
       campaignTrail_temp.questions_json[24] = {
         "model": "campaign_trail.question",
