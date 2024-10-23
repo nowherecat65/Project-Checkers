@@ -1035,6 +1035,42 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+    if(ans == 9243){
+      // HEAL HAPPENS (MIDTERM) QUESTION 19
+      campaignTrail_temp.questions_json[24] = {
+        "model": "campaign_trail.question",
+        "pk": 914,
+        "fields": {
+          "priority": 1,
+          "description": "Starting during the Eisenhower administration, and continuing into your own, the so-called ‘Space Race’ has captivated the nation, with exciting advancements, such establishment of NASA. How would you like to address it on the campaign trail?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 9392){
+      // HEAL HAPPENS (MIDTERM) QUESTION 19
+      campaignTrail_temp.questions_json[24] = {
+        "model": "campaign_trail.question",
+        "pk": 914,
+        "fields": {
+          "priority": 1,
+          "description": "Starting during the Eisenhower administration, and continuing into your own, the so-called ‘Space Race’ has captivated the nation, with exciting advancements, such establishment of NASA. How would you like to address it on the campaign trail?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 9347){
+      // HEAL HAPPENS (MIDTERM) QUESTION 19
+      campaignTrail_temp.questions_json[24] = {
+        "model": "campaign_trail.question",
+        "pk": 914,
+        "fields": {
+          "priority": 1,
+          "description": "Starting during the Eisenhower administration, and continuing into your own, the so-called ‘Space Race’ has captivated the nation, with exciting advancements, such establishment of NASA. How would you like to address it on the campaign trail?",
+          "likelihood": 1
+        }
+      }
+    }
     if(ans == 9347){
       // HEAL HAPPENS (MIDTERM) QUESTION 19
       campaignTrail_temp.questions_json[24] = {
@@ -1059,7 +1095,43 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+    if(ans == 9344){
+      // HEAL HAPPENS (MIDTERM) QUESTION 19
+      campaignTrail_temp.questions_json[24] = {
+        "model": "campaign_trail.question",
+        "pk": 914,
+        "fields": {
+          "priority": 1,
+          "description": "Starting during the Eisenhower administration, and continuing into your own, the so-called ‘Space Race’ has captivated the nation, with exciting advancements, such establishment of NASA. How would you like to address it on the campaign trail?",
+          "likelihood": 1
+        }
+      }
+    }
     if(ans == 9343){
+      // HEAL HAPPENS (MIDTERM) QUESTION 19
+      campaignTrail_temp.questions_json[24] = {
+        "model": "campaign_trail.question",
+        "pk": 914,
+        "fields": {
+          "priority": 1,
+          "description": "Starting during the Eisenhower administration, and continuing into your own, the so-called ‘Space Race’ has captivated the nation, with exciting advancements, such establishment of NASA. How would you like to address it on the campaign trail?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 9344){
+      // HEAL HAPPENS (MIDTERM) QUESTION 19
+      campaignTrail_temp.questions_json[24] = {
+        "model": "campaign_trail.question",
+        "pk": 914,
+        "fields": {
+          "priority": 1,
+          "description": "Starting during the Eisenhower administration, and continuing into your own, the so-called ‘Space Race’ has captivated the nation, with exciting advancements, such establishment of NASA. How would you like to address it on the campaign trail?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 9555){
       // HEAL HAPPENS (MIDTERM) QUESTION 18
       campaignTrail_temp.questions_json[23] = {
         "model": "campaign_trail.question",
