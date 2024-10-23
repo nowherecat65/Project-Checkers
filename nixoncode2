@@ -3015,7 +3015,7 @@ let vpName = "Everett Dirksen";
         }
       }
     }
-    if(ans == 4263){
+    if(ans == 4262){
       // DEWEY NO ALTERNATE 2
       campaignTrail_temp.questions_json[3] = {
         "model": "campaign_trail.question",
