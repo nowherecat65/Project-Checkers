@@ -2698,7 +2698,7 @@ let vpName = "Everett Dirksen";
         "pk": 166777,
         "fields": {
           "priority": 1,
-          "description": "(JULY 1964) It's been weeks since your Civil Rights Act was defeated by the Senate, and you still can't shake the overwhelmingly dissapointment. As you watch the news, it’s announced: ''Edmund Muskie is emerging as the likely nominee on the third ballot. The young, one-term senator has managed to place himself at the head of the 'Stop-Faubus' movement, all while positioning himself to the right of Humphrey.'' All the while, the RNC in Cleveland, Ohio, looms on the horizon...",
+          "description": "(JULY 1964) It’s been weeks since the Senate defeated your Civil Rights Act, and the overwhelming disappointment still clings to you. As you watch the news, it’s announced: ''Edmund Muskie is emerging as the likely nominee on the third ballot. The young, one-term senator has risen to lead the 'Stop-Faubus' movement, positioning himself as a more moderate alternative to Humphrey and gaining the support of most Northern delegates.'' All the while, the RNC in Cleveland, Ohio, looms on the horizon...",
           "likelihood": 1
         }
       }
