@@ -271,6 +271,16 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Faubus";
         e.election_json[0].fields.has_visits = 1;
 }
+    if(ans == 48312){
+        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Edmund";
+        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Muskie";
+        e.election_json[0].fields.has_visits = 1;
+}
+    if(ans == 48311){
+        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Edmund";
+        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Muskie";
+        e.election_json[0].fields.has_visits = 1;
+}
     if(ans == 8261){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "deLesseps S. 'Chep'";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Morrison";
