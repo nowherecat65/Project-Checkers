@@ -291,6 +291,10 @@ function newMusicPlayer() {
               {
                 "name": "Can’t Buy Me Love - The Beatles",
                 "url": "https://audio.jukehost.co.uk/AbqiGiRN9xWAjRNm1bSTbXFO7RjoUfZL"
+              },
+              {
+                "name": "The Little Old Lady From Pasadena - Jan & Dean ",
+                "url": "https://audio.jukehost.co.uk/fiOJOWj9PQjwkSgnZoLLH98q7KPxXNkd"
               }
           ]
        },
@@ -328,6 +332,10 @@ function newMusicPlayer() {
             {
               "name": "You Can’t Do That - The Beatles",
               "url": "https://audio.jukehost.co.uk/X9rsFrUUzpVsEkKP3rTeZ9XfhAOwuvRc"
+            },
+            {
+              "name": "Surfin' Bird (Extended) - The Trashmen",
+              "url": "https://audio.jukehost.co.uk/uL6MYOhXVfGPPpP6ujYlqNVhAHDw6QL6"
             }
           ]
         }
