@@ -115,8 +115,8 @@ cyoAdventure = function(a) {
         campaignTrail_temp.candidate_json[0]["fields"].electoral_victory_message = "<div style='overflow-y: scroll;height: 38em;'><table style='margin:0px;padding:0px;display: flex;'><tbody style='display: flex;'><tr><td style='border: none;padding: 0px;display: flow-root;'><p style='margin-left: 0em;margin-right: 0em;'><font color='white'><h3>A Resounding Victory for a Brighter Future!</h3><p>You’ve done it! You've defeated Governor Orval Faubus, winning every state except those in the South! Given your opponent, this landslide victory was almost a foregone conclusion. After the tragic death of President Nixon and Faubus’s rise as the Democratic nominee, anything less would have been a letdown.</p><p>As you stand in the White House, basking in the glow of this triumph, everything outside the window seems more radiant than ever. This victory is a powerful rejection of evil and a victory of unabashed hope. Gazing up at the sky, and the capitols skyline, you feel the presence of those who shaped you: your grandfather, President Eisenhower, and, of course, the unforgettable Richard Nixon. Nixon's untimely death still weighs heavily on your heart, but today, you can feel his spirit shining down, proud and steadfast. You smile at their memory, a bittersweet mix of joy and sorrow, and vow to honor and preserve their legacy.</p><p>With tears in your eyes and a renewed sense of purpose, you prepare to address your supporters. The next four years lie ahead, full of challenges and opportunities, but you know that with the strength and guidance of those who came before you, you can face anything...</i></p>";
         campaignTrail_temp.candidate_json[0]["fields"].electoral_loss_message = "<div style='overflow-y: scroll;height: 38em;'><table style='margin:0px;padding:0px;display: flex;'><tbody style='display: flex;'><tr><td style='border: none;padding: 0px;display: flow-root;'><p style='margin-left: 0em;margin-right: 0em;'><font color='white'><h3>A Defeat in Victory’s Shadow...</h3><p>In an unexpected turn of events, you narrowly lost to the Southern segregationist Faubus, despite being predicted to win by a landslide. The election was a bitter disappointment, leaving you and your supporters stunned. You had hoped to carry forward the torch of justice and equality, but now the future seems uncertain. As you sit in the White House for the last time, reflecting on the campaign and the outcome, the weight of the loss presses heavily on you. The tragic death of President Nixon had already cast a long shadow over the race, and now, Faubus’s victory threatens to unravel everything you and Nixon fought for.</p><p> You can't help but worry about the next few years. Faubus will likely attempt to dismantle the Civil Rights Act, the crowning achievement of your brief presidency. This legislation was meant to be a defining moment, a step toward a fairer and more just society. Now, there’s a very real fear that Faubus will destroy your legacy and Nixon’s too, undoing all the progress that has been made. </p><p With a heavy heart, you prepare to address your supporters. The fight for civil rights isn’t over. The next few years will be tough, but you’re determined to protect what’s been achieved. The battle has taken a different path, but with renewed resolve, you vow to keep fighting on the side of justice.</p>";
         campaignTrail_temp.multiple_endings=false
-        campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#3658E2";
-       campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#D32347";
+        campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#1E4DD5";
+       campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#CC243E";
         campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/8kYkvuT.png';
         campaignTrail_temp.candidate_last_name = 'President';
         unlockAchievement("The Dallas Requiem");
@@ -277,7 +277,7 @@ document.head.appendChild(style_overwrite);
         document.getElementById("header").src = "https://i.imgur.com/d7oCyOm.png"
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Orval";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Faubus";
-        campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2B5BFF";
+        campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#3255D4";
         campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#1F7A33";
         e.election_json[0].fields.has_visits = 1;
 }
@@ -287,7 +287,7 @@ document.head.appendChild(style_overwrite);
         document.getElementById("header").src = "https://i.imgur.com/d7oCyOm.png"
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Orval";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Faubus";
-        campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2B5BFF";
+        campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#3255D4";
         campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#1F7A33";
         e.election_json[0].fields.has_visits = 1;
 }
