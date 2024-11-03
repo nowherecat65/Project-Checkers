@@ -138,7 +138,7 @@ document.body.background = "https://i.imgur.com/5L7EHAs.png"
 const style_overwrite = document.createElement("style");
 style_overwrite.innerHTML = 
 `#campaign_sign {
-  background-color: #C82539;
+  background-color: #C62536;
   border-color: #380b0c;
 }
 style.innerHTML = 
