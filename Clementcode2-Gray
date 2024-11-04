@@ -1035,11 +1035,11 @@ document.head.appendChild(style_overwrite);
     }
    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
     if(ans == 1219){
-        campaignTrail_temp.candidate_json[3]["fields"].first_name = "Robert F.";
+        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Robert F.";
         campaignTrail_temp.running_mate_first_name = 'Kennedy';
-        campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#3455E8";
+        campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#2B5EBA";
        campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#AF2623";
-        campaignTrail_temp.candidate_json[3]["fields"].last_name = "Kennedy";
+        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Kennedy";
         campaignTrail_temp.candidate_json[3]["fields"].image_url = 
 "https://i.imgur.com/z8z0Fev.jpg'";
          document.body.background = "https://i.imgur.com/2ypl8nG.png";
@@ -1052,7 +1052,7 @@ document.head.appendChild(style_overwrite);
 const style_overwrite = document.createElement("style");
 style_overwrite.innerHTML = 
 `#campaign_sign {
-  background-color: #3455E8;
+  background-color: #2B5EBA;
   border-color: #09154d;
 }
 style.innerHTML = 
