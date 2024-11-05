@@ -46,6 +46,10 @@ campaignTrail_temp.achievements = {
     "Minnesota Nice" : {
         "image" : "https://i.imgur.com/wlCCzMF.png",
         "description" : "Unlock the Hubert Humphrey side.",
+    },
+    "Camelot Rebranded" : {
+        "image" : "https://i.imgur.com/wrN56Rj.png",
+        "description" : "Unlock the RFK side.",
 }
 musicMode = () => {
   songsPlayed = 0;
