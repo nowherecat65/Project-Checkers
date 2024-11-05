@@ -43,6 +43,9 @@ campaignTrail_temp.achievements = {
         "image" : "https://i.imgur.com/1DGbNGr.png",
         "description" : "Unlock the Pat Brown side.",
     },
+    "Minnesota Nice" : {
+        "image" : "https://i.imgur.com/wlCCzMF.png",
+        "description" : "Unlock the Hubert Humphrey side.",
 }
 musicMode = () => {
   songsPlayed = 0;
