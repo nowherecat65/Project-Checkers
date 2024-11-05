@@ -1045,7 +1045,7 @@ document.head.appendChild(style_overwrite);
          document.body.background = "https://i.imgur.com/2ypl8nG.png";
 document.getElementById("header").src = "https://i.imgur.com/PaDAKrV.png"
         let vpName = "Jennings Randolph";
-        campaignTrail_temp.candidate_image_url = 'https://files.catbox.moe/6oxrdj.png';
+        campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/LugJLp6.png';
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/SpKBRVO.jpg';
     campaignTrail_temp.running_mate_last_name = '<small>For President?<small>';
         campaignTrail_temp.candidate_last_name = 'Kennedy';
