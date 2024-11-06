@@ -256,15 +256,15 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Orval";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Faubus";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Pauling";
-       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#8c28f2";
-        campaignTrail_temp.candidate_json[6]["fields"].first_name = "Linus";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#E18B29";
+        campaignTrail_temp.candidate_json[6]["fields"].first_name = "Orval";
 }
     if(ans == 4831){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Orval";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Faubus";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Pauling";
-       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#8c28f2";
-        campaignTrail_temp.candidate_json[6]["fields"].first_name = "Linus";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#E18B29";
+        campaignTrail_temp.candidate_json[6]["fields"].first_name = "Orval";
 }
     if(ans == 7831){
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "Orval";
