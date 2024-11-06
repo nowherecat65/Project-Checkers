@@ -2609,6 +2609,42 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+    if(ans == 164141){
+      // HELL HAPPENS TWELVE - CR ACT FAIL
+      campaignTrail_temp.questions_json[20] = {
+        "model": "campaign_trail.question",
+        "pk": 13677,
+        "fields": {
+          "priority": 1,
+          "description": "(AUGUST 1964) The Faubus nomination, your Vietnam resolution, and the absence of a labor-backed presidential candidate have sparked discussions of a ''third option.'' The New York Times reports growing momentum behind a ''Draft Pauling'' movement, led by student activists, select unions, and segments of the urban middle and professional classes. The movement urges two-time Nobel Peace Prize winner Linus Pauling to enter the race with a liberal platform advocating for civil rights, union support, and peace. This follows a recent Pauling interview discussing the election, our actions in Vietnam, societal issues, and the limitations of the two-party system.",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 164242){
+      // HELL HAPPENS TWELVE - CR ACT FAIL
+      campaignTrail_temp.questions_json[20] = {
+        "model": "campaign_trail.question",
+        "pk": 13677,
+        "fields": {
+          "priority": 1,
+          "description": "(AUGUST 1964) The Faubus nomination, your Vietnam resolution, and the absence of a labor-backed presidential candidate have sparked discussions of a ''third option.'' The New York Times reports growing momentum behind a ''Draft Pauling'' movement, led by student activists, select unions, and segments of the urban middle and professional classes. The movement urges two-time Nobel Peace Prize winner Linus Pauling to enter the race with a liberal platform advocating for civil rights, union support, and peace. This follows a recent Pauling interview discussing the election, our actions in Vietnam, societal issues, and the limitations of the two-party system.",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 164343){
+      // HELL HAPPENS TWELVE - CR ACT FAIL
+      campaignTrail_temp.questions_json[20] = {
+        "model": "campaign_trail.question",
+        "pk": 13677,
+        "fields": {
+          "priority": 1,
+          "description": "(AUGUST 1964) The Faubus nomination, your Vietnam resolution, and the absence of a labor-backed presidential candidate have sparked discussions of a ''third option.'' The New York Times reports growing momentum behind a ''Draft Pauling'' movement, led by student activists, select unions, and segments of the urban middle and professional classes. The movement urges two-time Nobel Peace Prize winner Linus Pauling to enter the race with a liberal platform advocating for civil rights, union support, and peace. This follows a recent Pauling interview discussing the election, our actions in Vietnam, societal issues, and the limitations of the two-party system.",
+          "likelihood": 1
+        }
+      }
+    }
     if(ans == 1641){
       // HELL HAPPENS TWELVE
       campaignTrail_temp.questions_json[20] = {
