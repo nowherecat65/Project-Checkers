@@ -50,6 +50,7 @@ campaignTrail_temp.achievements = {
     "Camelot Rebranded" : {
         "image" : "https://i.imgur.com/wrN56Rj.png",
         "description" : "Unlock the RFK side.",
+    },
 }
 musicMode = () => {
   songsPlayed = 0;
