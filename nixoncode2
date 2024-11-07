@@ -2525,6 +2525,18 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+    if(ans == 474242){
+      // HELL HAPPENS FIFTEEN - CR ACT FAIL
+      campaignTrail_temp.questions_json[24] = {
+        "model": "campaign_trail.question",
+        "pk": 324777,
+        "fields": {
+          "priority": 1,
+          "description": "Starting during the Eisenhower administration, and continuing into the Nixon-Lodge years, the so-called ‘Space Race’ has captivated the nation, with exciting advancements, such as the establishment of NASA. How would you like to address it on the campaign trail",
+          "likelihood": 1
+        }
+      }
+    }
     if(ans == 5743){
       // HELL HAPPENS FIFTEEN
       campaignTrail_temp.questions_json[24] = {
@@ -2562,7 +2574,31 @@ let vpName = "Everett Dirksen";
       }
     }
     if(ans == 574343){
-      // HELL HAPPENS FOURTEEN
+      // HELL HAPPENS FOURTEEN CR FAIL
+      campaignTrail_temp.questions_json[23] = {
+        "model": "campaign_trail.question",
+        "pk": 325777,
+        "fields": {
+          "priority": 1,
+          "description": "(SEPTEMBER 1964) J. Edgar Hoover takes a seat across from you in the Oval Office. ‘‘Mr. President, it’s worse than we thought. This guy is a piece of work.’’ he says decidedly before placing a small stack of papers on your favorite desk, the one that used to belong to Woodrow Wilson. You flip through a few pages, realizing that the FBI Director has handed you a smoking gun in the Bobby Baker case, one that irrefutably ties Lyndon Johnson to Baker’s bribery and solicitation schemes. Hoover looks at you expectantly. ‘’Well?’’",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 574141){
+      // HELL HAPPENS FOURTEEN CR FAIL
+      campaignTrail_temp.questions_json[23] = {
+        "model": "campaign_trail.question",
+        "pk": 325777,
+        "fields": {
+          "priority": 1,
+          "description": "(SEPTEMBER 1964) J. Edgar Hoover takes a seat across from you in the Oval Office. ‘‘Mr. President, it’s worse than we thought. This guy is a piece of work.’’ he says decidedly before placing a small stack of papers on your favorite desk, the one that used to belong to Woodrow Wilson. You flip through a few pages, realizing that the FBI Director has handed you a smoking gun in the Bobby Baker case, one that irrefutably ties Lyndon Johnson to Baker’s bribery and solicitation schemes. Hoover looks at you expectantly. ‘’Well?’’",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 574242){
+      // HELL HAPPENS FOURTEEN CR FAIL
       campaignTrail_temp.questions_json[23] = {
         "model": "campaign_trail.question",
         "pk": 325777,
