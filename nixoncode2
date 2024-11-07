@@ -2669,6 +2669,54 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+    if(ans == 354545){
+      // HELL HAPPENS THIRTEEN - CR ACL FAIL
+      campaignTrail_temp.questions_json[22] = {
+        "model": "campaign_trail.question",
+        "pk": 326777,
+        "fields": {
+          "priority": 1,
+          "description": "You’ve just put down the receiver after a brief call with President Eisenhower, who, especially in the first 6 months of your administration, served as an important advisor. During the conversation, Ike not-so-subtly offered his services for your campaign. Do you plan to take him up on his offer?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 354343){
+      // HELL HAPPENS THIRTEEN - CR ACL FAIL
+      campaignTrail_temp.questions_json[22] = {
+        "model": "campaign_trail.question",
+        "pk": 326777,
+        "fields": {
+          "priority": 1,
+          "description": "You’ve just put down the receiver after a brief call with President Eisenhower, who, especially in the first 6 months of your administration, served as an important advisor. During the conversation, Ike not-so-subtly offered his services for your campaign. Do you plan to take him up on his offer?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 354242){
+      // HELL HAPPENS THIRTEEN - CR ACL FAIL
+      campaignTrail_temp.questions_json[22] = {
+        "model": "campaign_trail.question",
+        "pk": 326777,
+        "fields": {
+          "priority": 1,
+          "description": "You’ve just put down the receiver after a brief call with President Eisenhower, who, especially in the first 6 months of your administration, served as an important advisor. During the conversation, Ike not-so-subtly offered his services for your campaign. Do you plan to take him up on his offer?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 354141){
+      // HELL HAPPENS THIRTEEN - CR ACL FAIL
+      campaignTrail_temp.questions_json[22] = {
+        "model": "campaign_trail.question",
+        "pk": 326777,
+        "fields": {
+          "priority": 1,
+          "description": "You’ve just put down the receiver after a brief call with President Eisenhower, who, especially in the first 6 months of your administration, served as an important advisor. During the conversation, Ike not-so-subtly offered his services for your campaign. Do you plan to take him up on his offer?",
+          "likelihood": 1
+        }
+      }
+    }
     if(ans == 3541){
       // HELL HAPPENS THIRTEEN
       campaignTrail_temp.questions_json[22] = {
