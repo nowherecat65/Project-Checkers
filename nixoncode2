@@ -2300,6 +2300,42 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+	if(ans == 376060){
+      // HELL HAPPENS TWENTY - CR ACT FAIL
+      campaignTrail_temp.questions_json[29] = {
+        "model": "campaign_trail.question",
+        "pk": 319999,
+        "fields": {
+          "priority": 1,
+          "description": "Another day, another speech, this time in Norfolk, Virginia. What would you like to say to the thousands in attendance?",
+          "likelihood": 1
+        }
+      }
+    }
+	if(ans == 379696){
+      // HELL HAPPENS TWENTY - CR ACT FAIL
+      campaignTrail_temp.questions_json[29] = {
+        "model": "campaign_trail.question",
+        "pk": 319999,
+        "fields": {
+          "priority": 1,
+          "description": "Another day, another speech, this time in Norfolk, Virginia. What would you like to say to the thousands in attendance?",
+          "likelihood": 1
+        }
+      }
+    }
+	if(ans == 376161){
+      // HELL HAPPENS TWENTY - CR ACT FAIL
+      campaignTrail_temp.questions_json[29] = {
+        "model": "campaign_trail.question",
+        "pk": 319999,
+        "fields": {
+          "priority": 1,
+          "description": "Another day, another speech, this time in Norfolk, Virginia. What would you like to say to the thousands in attendance?",
+          "likelihood": 1
+        }
+      }
+    }
     if(ans == 3763){
       // HELL HAPPENS NINETEEN
       campaignTrail_temp.questions_json[28] = {
@@ -2313,7 +2349,7 @@ let vpName = "Everett Dirksen";
       }
     }
     if(ans == 376363){
-      // HELL HAPPENS NINETEEN
+      // HELL HAPPENS NINETEEN - CR ACT FAIL
       campaignTrail_temp.questions_json[28] = {
         "model": "campaign_trail.question",
         "pk": 318999,
@@ -2325,7 +2361,7 @@ let vpName = "Everett Dirksen";
       }
     }
     if(ans == 376262){
-      // HELL HAPPENS NINETEEN
+      // HELL HAPPENS NINETEEN - CR ACT FAIL
       campaignTrail_temp.questions_json[28] = {
         "model": "campaign_trail.question",
         "pk": 318999,
