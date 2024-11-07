@@ -348,6 +348,9 @@ document.head.appendChild(style_overwrite);
     if(ans == 7775){
         e.global_parameter_json[0].fields.question_count = 39
 }
+    if(ans == 6602){
+        campaignTrail_temp.candidate_last_name = 'Lodge Jr.';
+}
     if(ans == 1643){
         campaignTrail_temp.candidate_last_name = 'Lodge';
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Pauling";
