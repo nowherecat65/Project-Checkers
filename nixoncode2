@@ -279,7 +279,6 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Faubus";
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#3255D4";
         campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#E18B29";
-        campaignTrail_temp.question_number = 37;
         e.election_json[0].fields.has_visits = 1;
 }
     if(ans == 48311){
@@ -289,7 +288,6 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Orval";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Faubus";
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#3255D4";
-        campaignTrail_temp.question_number = 37;
         campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#E18B29";
         e.election_json[0].fields.has_visits = 1;
 }
