@@ -2159,6 +2159,42 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+    if(ans == 327576){
+      // HELL HAPPENS TWENTY SIX - CR ACT FAIL
+      campaignTrail_temp.questions_json[36] = {
+        "model": "campaign_trail.question",
+        "pk": 3691919,
+        "fields": {
+          "priority": 1,
+          "description": "This is it. After one of the most divisive, angry, and overall, exhausting election seasons in recent memory, it's the last day before polls open country-wide. Where would you like to take your last trip of the campaign to?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 237574){
+      // HELL HAPPENS TWENTY SIX - CR ACT FAIL
+      campaignTrail_temp.questions_json[36] = {
+        "model": "campaign_trail.question",
+        "pk": 3691919,
+        "fields": {
+          "priority": 1,
+          "description": "This is it. After one of the most divisive, angry, and overall, exhausting election seasons in recent memory, it's the last day before polls open country-wide. Where would you like to take your last trip of the campaign to?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 237676){
+      // HELL HAPPENS TWENTY SIX - CR ACT FAIL
+      campaignTrail_temp.questions_json[36] = {
+        "model": "campaign_trail.question",
+        "pk": 3691919,
+        "fields": {
+          "priority": 1,
+          "description": "This is it. After one of the most divisive, angry, and overall, exhausting election seasons in recent memory, it's the last day before polls open country-wide. Where would you like to take your last trip of the campaign to?",
+          "likelihood": 1
+        }
+      }
+    }
     if(ans == 327574){
       // HELL HAPPENS TWENTY FOUR - CR ACT FAIL
       campaignTrail_temp.questions_json[34] = {
