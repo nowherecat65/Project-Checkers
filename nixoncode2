@@ -1991,6 +1991,30 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+    if(ans == 376363){
+      // HELL HAPPENS TWENTY SEVEN
+      campaignTrail_temp.questions_json[37] = {
+        "model": "campaign_trail.question",
+        "pk": 3691818,
+        "fields": {
+          "priority": 1,
+          "description": "Hoover quickly rushes into the room as you are about to sign another executive order. ''Bunch of leftist agitators just started a race riot outside of the Faubus rally in Tallahassee. Bastard's fine thanks to the Secret Service, even if he won't shut up about law and order, but these commies won't stop unless you give me the tools to stop them.'' What's your move?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 376262){
+      // HELL HAPPENS TWENTY SEVEN
+      campaignTrail_temp.questions_json[37] = {
+        "model": "campaign_trail.question",
+        "pk": 3691818,
+        "fields": {
+          "priority": 1,
+          "description": "Hoover quickly rushes into the room as you are about to sign another executive order. ''Bunch of leftist agitators just started a race riot outside of the Faubus rally in Tallahassee. Bastard's fine thanks to the Secret Service, even if he won't shut up about law and order, but these commies won't stop unless you give me the tools to stop them.'' What's your move?",
+          "likelihood": 1
+        }
+      }
+    }
     if(ans == 7002){
       // HELL HAPPENS TWENTY SEVEN
       campaignTrail_temp.questions_json[37] = {
@@ -2052,6 +2076,30 @@ let vpName = "Everett Dirksen";
       }
     }
     if(ans == 318888){
+      // HELL HAPPENS TWENTY SIX - CR ACT FAIL
+      campaignTrail_temp.questions_json[36] = {
+        "model": "campaign_trail.question",
+        "pk": 3691919,
+        "fields": {
+          "priority": 1,
+          "description": "This is it. After one of the most divisive, angry, and overall, exhausting election seasons in recent memory, it's the last day before polls open country-wide. Where would you like to take your last trip of the campaign to?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 376363){
+      // HELL HAPPENS TWENTY SIX - CR ACT FAIL
+      campaignTrail_temp.questions_json[36] = {
+        "model": "campaign_trail.question",
+        "pk": 3691919,
+        "fields": {
+          "priority": 1,
+          "description": "This is it. After one of the most divisive, angry, and overall, exhausting election seasons in recent memory, it's the last day before polls open country-wide. Where would you like to take your last trip of the campaign to?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 376262){
       // HELL HAPPENS TWENTY SIX - CR ACT FAIL
       campaignTrail_temp.questions_json[36] = {
         "model": "campaign_trail.question",
@@ -2155,42 +2203,6 @@ let vpName = "Everett Dirksen";
         "fields": {
           "priority": 1,
           "description": "As you prepare to address the crowd in Lansing, Michigan, your mind drifts back just four years. Back then, you were the former Ambassador to the United Nations and Richard Nixon's running mate… Now, as the President of the United States, you recently signed into law groundbreaking civil rights legislation. Facing a vitriolic Dixiecrat Governor, you are projected to win the Presidency overwhelmingly…. On this chilly evening, what message would you like to convey?",
-          "likelihood": 1
-        }
-      }
-    }
-    if(ans == 327576){
-      // HELL HAPPENS TWENTY SIX - CR ACT FAIL
-      campaignTrail_temp.questions_json[36] = {
-        "model": "campaign_trail.question",
-        "pk": 3691919,
-        "fields": {
-          "priority": 1,
-          "description": "This is it. After one of the most divisive, angry, and overall, exhausting election seasons in recent memory, it's the last day before polls open country-wide. Where would you like to take your last trip of the campaign to?",
-          "likelihood": 1
-        }
-      }
-    }
-    if(ans == 237574){
-      // HELL HAPPENS TWENTY SIX - CR ACT FAIL
-      campaignTrail_temp.questions_json[36] = {
-        "model": "campaign_trail.question",
-        "pk": 3691919,
-        "fields": {
-          "priority": 1,
-          "description": "This is it. After one of the most divisive, angry, and overall, exhausting election seasons in recent memory, it's the last day before polls open country-wide. Where would you like to take your last trip of the campaign to?",
-          "likelihood": 1
-        }
-      }
-    }
-    if(ans == 237676){
-      // HELL HAPPENS TWENTY SIX - CR ACT FAIL
-      campaignTrail_temp.questions_json[36] = {
-        "model": "campaign_trail.question",
-        "pk": 3691919,
-        "fields": {
-          "priority": 1,
-          "description": "This is it. After one of the most divisive, angry, and overall, exhausting election seasons in recent memory, it's the last day before polls open country-wide. Where would you like to take your last trip of the campaign to?",
           "likelihood": 1
         }
       }
