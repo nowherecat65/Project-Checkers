@@ -116,7 +116,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.candidate_json[0]["fields"].electoral_loss_message = "<div style='overflow-y: scroll;height: 38em;'><table style='margin:0px;padding:0px;display: flex;'><tbody style='display: flex;'><tr><td style='border: none;padding: 0px;display: flow-root;'><p style='margin-left: 0em;margin-right: 0em;'><font color='white'><h3>A Defeat in Victory’s Shadow...</h3><p>In an unexpected turn of events, you narrowly lost to the Southern segregationist Faubus, despite being predicted to win by a landslide. The election was a bitter disappointment, leaving you and your supporters stunned. You had hoped to carry forward the torch of justice and equality, but now the future seems uncertain. As you sit in the White House for the last time, reflecting on the campaign and the outcome, the weight of the loss presses heavily on you. The tragic death of President Nixon had already cast a long shadow over the race, and now, Faubus’s victory threatens to unravel everything you and Nixon fought for.</p><p> You can't help but worry about the next few years. Faubus will likely attempt to dismantle the Civil Rights Act, the crowning achievement of your brief presidency. This legislation was meant to be a defining moment, a step toward a fairer and more just society. Now, there’s a very real fear that Faubus will destroy your legacy and Nixon’s too, undoing all the progress that has been made. </p><p With a heavy heart, you prepare to address your supporters. The fight for civil rights isn’t over. The next few years will be tough, but you’re determined to protect what’s been achieved. The battle has taken a different path, but with renewed resolve, you vow to keep fighting on the side of justice.</p>";
         campaignTrail_temp.multiple_endings=false
         campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#1D34C4";
-       campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#BF283B";
+       campaignTrail_temp.candidate_json[0]["fields"].color_hex = "#C02B3E";
         campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/8kYkvuT.png';
         campaignTrail_temp.candidate_last_name = 'President';
         unlockAchievement("The Dallas Requiem");
@@ -301,7 +301,7 @@ document.head.appendChild(style_overwrite);
         campaignTrail_temp.candidate_json[2]["fields"].first_name = "deLesseps S. 'Chep'";
         campaignTrail_temp.candidate_json[2]["fields"].last_name = "Morrison";
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Pauling";
-       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#8c28f2";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#832AE1";
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Linus";
         campaignTrail_temp.question_number = 36;
 }
@@ -365,7 +365,7 @@ document.head.appendChild(style_overwrite);
     if(ans == 1643){
         campaignTrail_temp.candidate_last_name = 'Lodge';
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Pauling";
-       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#8c28f2";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#832AE1";
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Linus";
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/eXT0Z1f.png';
 campaignTrail_temp.running_mate_last_name = 'Goldwater';
@@ -384,13 +384,13 @@ let vpName = "Barry Goldwater";
 }
     if(ans == 2542){
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Pauling";
-       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#8c28f2";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#832AE1";
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Linus";
 }
     if(ans == 1642){
         campaignTrail_temp.candidate_last_name = 'Lodge';
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Pauling";
-       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#8c28f2";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#832AE1";
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Linus";
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/op7vsCv.jpg';
 campaignTrail_temp.running_mate_last_name = 'Andersen';
@@ -420,7 +420,7 @@ let vpName = "Everett Dirksen";
     if(ans == 1641){
         campaignTrail_temp.candidate_last_name = 'Lodge';
         campaignTrail_temp.candidate_json[6]["fields"].last_name = "Pauling";
-       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#8c28f2";
+       campaignTrail_temp.candidate_json[6]["fields"].color_hex = "#832AE1";
         campaignTrail_temp.candidate_json[6]["fields"].first_name = "Linus";
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/yRcgK8n.jpg';
 campaignTrail_temp.running_mate_last_name = 'Dirksen';
