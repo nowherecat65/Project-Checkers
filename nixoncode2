@@ -2153,6 +2153,54 @@ let vpName = "Everett Dirksen";
         }
       }
     }
+    if(ans == 327577){
+      // HELL HAPPENS TWENTY FIVE
+      campaignTrail_temp.questions_json[35] = {
+        "model": "campaign_trail.question",
+        "pk": 36920,
+        "fields": {
+          "priority": 1,
+          "description": "In 1962, your fallen boss, President Nixon, attempted a market-based reform of Social Security. Unfortunately, it collapsed due to resistance from Moderates and Liberals in Congress. The Faubus campaign is now attempting to tie you to this effort, falsely portraying you as the driving force behind the idea, rather than President Nixon. What should our response be?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 327576){
+      // HELL HAPPENS TWENTY FIVE
+      campaignTrail_temp.questions_json[35] = {
+        "model": "campaign_trail.question",
+        "pk": 36920,
+        "fields": {
+          "priority": 1,
+          "description": "In 1962, your fallen boss, President Nixon, attempted a market-based reform of Social Security. Unfortunately, it collapsed due to resistance from Moderates and Liberals in Congress. The Faubus campaign is now attempting to tie you to this effort, falsely portraying you as the driving force behind the idea, rather than President Nixon. What should our response be?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 327574){
+      // HELL HAPPENS TWENTY FIVE
+      campaignTrail_temp.questions_json[35] = {
+        "model": "campaign_trail.question",
+        "pk": 36920,
+        "fields": {
+          "priority": 1,
+          "description": "In 1962, your fallen boss, President Nixon, attempted a market-based reform of Social Security. Unfortunately, it collapsed due to resistance from Moderates and Liberals in Congress. The Faubus campaign is now attempting to tie you to this effort, falsely portraying you as the driving force behind the idea, rather than President Nixon. What should our response be?",
+          "likelihood": 1
+        }
+      }
+    }
+    if(ans == 327474){
+      // HELL HAPPENS TWENTY FIVE
+      campaignTrail_temp.questions_json[35] = {
+        "model": "campaign_trail.question",
+        "pk": 36920,
+        "fields": {
+          "priority": 1,
+          "description": "In 1962, your fallen boss, President Nixon, attempted a market-based reform of Social Security. Unfortunately, it collapsed due to resistance from Moderates and Liberals in Congress. The Faubus campaign is now attempting to tie you to this effort, falsely portraying you as the driving force behind the idea, rather than President Nixon. What should our response be?",
+          "likelihood": 1
+        }
+      }
+    }
     if(ans == 2374){
       // HELL HAPPENS TWENTY FIVE
       campaignTrail_temp.questions_json[35] = {
