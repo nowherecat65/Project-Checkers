@@ -180,7 +180,7 @@ function switcheroo3444() {
     e.election_json[0].fields.has_visits = 1;
 }
 function switcheroo3445() {
-    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/h3tOkpy.jpeg';
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/j14eOOv.jpeg';
     campaignTrail_temp.running_mate_last_name = 'Edmondson';
     campaignTrail_temp.running_mate_first_name = 'J. Howard';
     campaignTrail_temp.running_mate_state_id = '216';
