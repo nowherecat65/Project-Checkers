@@ -2429,7 +2429,7 @@ let vpName = "Everett Dirksen";
         "pk": 379799,
         "fields": {
           "priority": 1,
-          "description": "Welfare reform, a key focus of the Nixon domestic agenda, saw the passage of the partially groundbreaking 'Family Assistance Plan' (FAP). This introduced a guaranteed income for some poor families while aiming to reduce the welfare system. However, since then, welfare reform has taken a backseat, given the predominant focus of your presidency on the formation, and passage of your 'Civil Rights Act.' Any plans to address this? ",
+          "description": "Welfare reform, a key focus of the Nixon domestic agenda, saw the passage of the partially groundbreaking 'Family Assistance Plan' (FAP). This introduced a guaranteed income for some poor families while aiming to reduce the welfare system. However, since then, welfare reform has taken a backseat, given the predominant focus of your presidency on the formation, and the botched passage of your 'Civil Rights Act.' Any plans to address this? ",
           "likelihood": 1
         }
       }
