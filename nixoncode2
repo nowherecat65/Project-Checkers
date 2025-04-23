@@ -356,7 +356,7 @@ document.head.appendChild(style_overwrite);
         BADGUYDICK += 2;
 }
     if(ans == 7594){
-        GOODGUYDICK += 1;
+        GOODGUYDICK += 2;
         BADGUYDICK -= 2;
 }
     if(ans == 7593){
@@ -382,7 +382,7 @@ document.head.appendChild(style_overwrite);
         BADGUYDICK += 1;
 }
     if(ans == 8594){
-        GOODGUYDICK += 1;
+        GOODGUYDICK += 2;
         BADGUYDICK -= 2;
 }
     if(ans == 22601){
