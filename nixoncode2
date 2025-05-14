@@ -59,6 +59,9 @@ style_overwrite.innerHTML =
 #state_info h3 {
   background-color: #b78487;
 }
+#state_result h3 {
+  background-color: #b78487;
+}
 #overall_result h3 {
   background-color: #b78487;
 }`
