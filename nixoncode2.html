@@ -4315,6 +4315,15 @@ function addHeadquarterButton() {
         return;
     }
 
+    // Create a new button element
+    const newButton = document.createElement('button');
+
+    newButton.id = 'headquarter_button';
+
+    newButton.style.marginLeft = '1.5em';
+
+    newButton.innerHTML = 'Campaign Data';
+
     // Attach the click event listener
     newButton.addEventListener('click', openHeadquarter);
 
@@ -4327,16 +4336,15 @@ function openHeadquarter() {
     /*
     Leaving this in here: instead of having the functions in the text, if you want, you can have the text change based on the number from the function, like so. You'll need to create a secondary function to hold the text, and then call that function in the text. - Astro
 
-let civilScore;
-if (BADGUYDICK > GOODGUYDICK + 2) {
-    civilScore = 'Your administration is widely seen as conservative on civil rights.';
-} else if (GOODGUYDICK > BADGUYDICK + 2) {
-    civilScore = 'Your administration is seen as liberal and proactive on civil rights.';
-} else if (GOODGUYDICK === BADGUYDICK) {
-    civilScore = 'Your civil rights stance appears ambiguous or centrist.';
-} else {
-    civilScore = 'Your administration has sent mixed signals on civil rights.';
-}
+    if (policyForeign < -3) {
+        fpScore = 'isolationist.'
+    }
+    if (policyForeign > -3 && policyForeign < 3) {
+    fpScore = 'balanced.'
+    }
+    if (policyForeign > 3) {
+         fpScore = 'hawkish.'
+    }
 
     */
       
@@ -4355,7 +4363,7 @@ if (BADGUYDICK > GOODGUYDICK + 2) {
     hqDiv.style.display = 'flex'; // Set layout to flex to allow columns
     hqDiv.style.color = 'white';
     hqDiv.style.backgroundColor = '#383838';
-    hqDiv.style.backgroundImage = 'url(https://itsastronomical.com/assets/1912/wilsonbg.png)'; // Set background image. I would recommend using the same file size as the original image, ~959 x 327. Otherwise it will stretch the image. Comment or remove this line of text if you don't want a background image and instead want hqDiv.style.backgroundColor to set your background color
+    hqDiv.style.backgroundImage = 'url(https://i.postimg.cc/Vv30FJ4X/nixonwhitehuse.png)'; // Set background image. I would recommend using the same file size as the original image, ~959 x 327. Otherwise it will stretch the image. Comment or remove this line of text if you don't want a background image and instead want hqDiv.style.backgroundColor to set your background color
     hqDiv.style.border = '5px solid black';
     hqDiv.style.borderRadius = '10px';
     hqDiv.style.height = '56%';
@@ -4409,33 +4417,7 @@ if (BADGUYDICK > GOODGUYDICK + 2) {
     // Append columnsDiv to the main hqDiv
     hqDiv.appendChild(columnsDiv);
 
-
-    questions.parentNode.insertBefore(hqDiv, questions.nextSibling);
-
-    // This is the bulk of the content you can edit. You can add more text or images here.
-
-    // Create Bulk of the Text
-    // Duplicate this section to add more lines of text. Make sure to change the variable name "a" to something else. In this case, I changed it to "b".
-    let a = document.createElement('p');
-    a.textContent = 'Your success rate in the lead up to the 1912 Democratic Convention is ' + primary + '.'; // This is the text that will be displayed. You can change this to whatever you want. ' + function + ' will display the number from the function.
-    // a.style.flexGrow = '0.1';  // Make h3 take up the maximum space available
-    a.style.color = 'black'; // Can be used to change the color of the text
-    a.style.margin = '8px'; // Can be used to change the space in between the text. Useful if you have a lot of functions.
-    hqDiv.appendChild(a);
-
-    let b = document.createElement('p');
-    b.textContent = '' + bliss + ' opponents have been attacked during the course of the Democratic Primary.';
-    // b.style.flexGrow = '0.1';  // Make h3 take up the maximum space available
-    b.style.color = 'black';
-    b.style.margin = '8px';
-    hqDiv.appendChild(b);
-
-let civilParagraph = document.createElement('p');
-civilParagraph.textContent = civilScore;
-civilParagraph.style.color = 'black';
-civilParagraph.style.margin = '8px';
-hqDiv.appendChild(civilParagraph);
-
+    // Civil rights stance evaluation (v3 - single paragraph)
 let civilScore;
 
 if (typeof GOODGUYDICK !== 'undefined' && typeof BADGUYDICK !== 'undefined') {
@@ -4453,10 +4435,33 @@ if (typeof GOODGUYDICK !== 'undefined' && typeof BADGUYDICK !== 'undefined') {
 }
 
 let c = document.createElement('p');
-c.textContent = civilScore + ` (Good: ${GOODGUYDICK ?? 'N/A'} / Bad: ${BADGUYDICK ?? 'N/A'})`;
+c.textContent = `${civilScore} (Good: ${typeof GOODGUYDICK !== 'undefined' ? GOODGUYDICK : 'N/A'} / Bad: ${typeof BADGUYDICK !== 'undefined' ? BADGUYDICK : 'N/A'})`;
 c.style.color = 'black';
 c.style.margin = '8px';
 hqDiv.appendChild(c);
+// End civil rights stance evaluation (v3)
+
+
+
+    questions.parentNode.insertBefore(hqDiv, questions.nextSibling);
+
+    // This is the bulk of the content you can edit. You can add more text or images here.
+
+    // Create Bulk of the Text
+    // Duplicate this section to add more lines of text. Make sure to change the variable name "a" to something else. In this case, I changed it to "b".
+    let a = document.createElement('p');
+    a.innerHTML = 'Your success rate in the lead up to the 1912 Democratic Convention is ' + primary + '.'; // This is the text that will be displayed. You can change this to whatever you want. ' + function + ' will display the number from the function.
+    // a.style.flexGrow = '0.1';  // Make h3 take up the maximum space available
+    a.style.color = 'black'; // Can be used to change the color of the text
+    a.style.margin = '8px'; // Can be used to change the space in between the text. Useful if you have a lot of functions.
+    hqDiv.appendChild(a);
+
+    let b = document.createElement('p');
+    b.innerHTML = '' + bliss + ' opponents have been attacked during the course of the Democratic Primary.';
+    // b.style.flexGrow = '0.1';  // Make h3 take up the maximum space available
+    b.style.color = 'black';
+    b.style.margin = '8px';
+    hqDiv.appendChild(b);
 
     // Image
     let img = document.createElement('img');
