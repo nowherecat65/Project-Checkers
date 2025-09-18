@@ -119,6 +119,7 @@ var FOLSOMEE = 0
 var CUBADONE = 0
 var NOATTEMPTHEAL = 0
 var LODGEY = 0
+var WORLDSTABLESS = 1
 var FOLSOMNOMINATED = 0
 cyoAdventure = function(a) {
  ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
@@ -381,6 +382,24 @@ document.head.appendChild(style_overwrite);
         GOODGUYDICK -= 2;
         BADGUYDICK += 1;
 }
+    if(ans == 4264){
+        WORLDSTABLESS += 2;
+}
+    if(ans == 3355){
+        WORLDSTABLESS += 2;
+}
+    if(ans == 9355){
+        WORLDSTABLESS += 2;
+}
+    if(ans == 4262){
+        WORLDSTABLESS += 1;
+}
+    if(ans == 4263){
+        WORLDSTABLESS -= 2;
+}
+    if(ans == 4261){
+        WORLDSTABLESS -= 1;
+}
     if(ans == 5265){
         BADGUYDICK += 1;
 }
@@ -434,8 +453,30 @@ document.head.appendChild(style_overwrite);
         GOODGUYDICK += 2;
         BADGUYDICK -= 2;
 }
+    if(ans == 3353){
+        WORLDSTABLESS -= 3;
+}
+    if(ans == 7853){
+        WORLDSTABLESS -= 2;
+}
+    if(ans == 9353){
+        WORLDSTABLESS -= 3;
+}
+    if(ans == 9352){
+        WORLDSTABLESS -= 1;
+}
+    if(ans == 3354){
+        WORLDSTABLESS += 1;
+}
+    if(ans == 9354){
+        WORLDSTABLESS += 1;
+}
+    if(ans == 3352){
+        WORLDSTABLESS -= 1;
+}
     if(ans == 9261){
         CUBADONE += 1;
+        WORLDSTABLESS += 1;
 }
     if(ans == 6002){
         HEALYES += 2;
@@ -485,9 +526,11 @@ document.head.appendChild(style_overwrite);
 }
     if(ans == 77744){
         NOATTEMPTHEAL += 1;
+        HEALYES -= 3;
 }
     if(ans == 7774){
         NOATTEMPTHEAL += 1;
+        HEALYES -= 3;
 }
     if(ans == 9259){
         GOODGUYDICK -= 1;
@@ -4608,13 +4651,13 @@ cray.style.margin = '8px';
 hqDiv.appendChild(cray);
 // End CRAYES status
 
-// HEAL bill status (HEALYES: -1,0,1,2)
+// HEAL bill status (HEALYES: -3,-1,0,1,2)
 let healMsg;
 
 if (typeof HEALYES !== 'undefined') {
-    switch (HEALYES) {
+    switch (Number(HEALYES)) {
         case 2:
-            healMsg = 'You have passed an in-tact version of your HEAL Bill.';
+            healMsg = 'You have passed an intact version of your HEAL Bill.';
             break;
         case 1:
             healMsg = 'You passed a mutilated version of your HEAL bill.';
@@ -4623,7 +4666,10 @@ if (typeof HEALYES !== 'undefined') {
             healMsg = 'You have not passed your HEAL healthcare bill.';
             break;
         case -1:
-            healMsg = 'You were forced to Veto a mutilated version of your HEAL bill.';
+            healMsg = 'You were forced to veto a mutilated version of your HEAL bill.';
+            break;
+        case -3:
+            healMsg = 'You pulled the plug on your HEAL bill.';
             break;
         default:
             healMsg = 'HEAL status is unclear.';
@@ -4642,6 +4688,42 @@ heal.textContent = healMsg; // ← no HEALYES value shown
 heal.style.color = 'black';
 heal.style.margin = '8px';
 hqDiv.appendChild(heal); // or rightCol.appendChild(heal);
+
+// Global stability status (WORLDSTABLESS: integer scale)
+let worldMsg;
+
+if (typeof WORLDSTABLESS !== 'undefined' && WORLDSTABLESS !== null) {
+  const w = Number(WORLDSTABLESS);
+
+  if (w >= 10) {
+    worldMsg = 'The world is enjoying an extended era of peace.';
+  } else if (w >= 5) { // 5–9
+    worldMsg = 'Global stability is solid, and freedom is advancing.';
+  } else if (w >= 2) { // 2–4
+    worldMsg = 'The world is broadly stable and trending upward.';
+  } else if (w >= -1) { // -1–1
+    worldMsg = 'The world is relatively stable, and the balance holds.';
+  } else if (w >= -5) { // -5–-2
+    worldMsg = 'The world is edging toward instability and disorder.';
+  } else if (w >= -10) { // -10–-6
+    worldMsg = 'The world is in crisis; unrest and violence are widespread.';
+  } else { // ≤ -11
+    worldMsg = 'The world is teetering on the brink of nuclear catastrophe.';
+  }
+} else {
+  worldMsg = 'Global stability status unavailable.';
+}
+
+// prevent duplicates
+const existingWorld = document.getElementById('worldStabilityStatus');
+if (existingWorld) existingWorld.remove();
+
+const world = document.createElement('p');
+world.id = 'worldStabilityStatus';
+world.textContent = worldMsg; // ← no numeric value shown
+world.style.color = 'black';
+world.style.margin = '8px';
+hqDiv.appendChild(world); // or rightCol.appendChild(world);
 
 
     questions.parentNode.insertBefore(hqDiv, questions.nextSibling);
