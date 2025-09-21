@@ -4468,6 +4468,20 @@ if (
     }
   };
 }
+if (
+  typeof FOLSOMNOMINATED !== 'undefined' && Number(FOLSOMNOMINATED) === 1
+) {
+  // FOLSOM PATH
+  campaignTrail_temp.questions_json[21] = {
+    "model": "campaign_trail.question",
+    "pk": 572354123,
+    "fields": {
+      "priority": 1,
+      "description": "In light of Orval Faubus’s strong showing at the Democratic Convention, as well as strong opposition from Dixiecrats to both your civil rights program and Folsom's record, particularly in releasing Dr. King from prison, right-wing commentator and former Notre Dame dean Clarence Manion is running under the banner of the ''American Party''. Alarmingly, he has secured ballot access in nearly every Southern state, with various favorite-son campaigns allied with him sprouting throughout the region. How should we address this?",
+      "likelihood": 1
+    }
+  };
+}
     if(ans == 5529){
      campaignTrail_temp.questions_json[8] = {
         "model": "campaign_trail.question",
