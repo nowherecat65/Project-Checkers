@@ -83,15 +83,13 @@ style.innerHTML = `
 document.head.appendChild(style);
 
 
-function checkIfCanAddMap() {
-    map = document.getElementById("map_container");
-    
-    if(map) {
-        map.style.backgroundImage = "url('https://i.imgur.com/fM9qDtz.png')"; 
-    }
+const mapBackgroundStyle1964N = document.createElement("style");
+mapBackgroundStyle1964N.textContent = `
+#map_container {
+    background-image: url("https://i.imgur.com/fM9qDtz.png");
 }
-
-setInterval(checkIfCanAddMap, 250);
+`;
+document.head.appendChild(mapBackgroundStyle1964N);
 
 campaignTrail_temp.running_mate_state_id = '201';
 
@@ -141,27 +139,191 @@ function set1964NFeedbackText(answerPk, feedback) {
 }
 
 
-let enable1964NVisitsTimer = null;
+/*
+ * 1964N persistent visit-map lifecycle guard.
+ *
+ * Campaign Trail Showcase creates a visit-screen #map_container and immediately
+ * initializes jquery.usmap/Raphael. A nominee-selection timer is too early when
+ * the first visit screen appears on a later question, so this guard watches for
+ * the actual screen insertion and validates the rendered SVG itself.
+ */
 function enable1964NCampaignVisits() {
-    const electionFields = campaignTrail_temp.election_json[0].fields;
+    campaignTrail_temp.election_json[0].fields.has_visits = 1;
+}
 
-    // Showcase calculates the current turn's polling before cyoAdventure runs.
-    // These routes change the opponent inside cyoAdventure. If visits are enabled
-    // synchronously here, nextQuestion immediately tries to draw a visit map from
-    // the pre-transition polling object. Keep visits off for the remainder of this
-    // call stack, let the newly selected matchup/question commit normally, and
-    // enable visits for the next ordinary campaign-map break.
-    electionFields.has_visits = 0;
+(function install1964NVisitMapGuard() {
+    if (window.__1964NVisitMapGuardInstalled) return;
+    window.__1964NVisitMapGuardInstalled = true;
 
-    if (enable1964NVisitsTimer !== null) {
-        clearTimeout(enable1964NVisitsTimer);
+    const VISIT_TEXT = "Use this map to click on the next state you wish to visit.";
+    const MIN_STATE_SHAPES = 40;
+    const MAX_ATTEMPTS = 90;
+
+    let repairing = false;
+    let scheduled = false;
+    let observedMap = null;
+    let resizeObserver = null;
+
+    function isVisitScreen() {
+        const gameWindow = document.getElementById("game_window");
+        return Boolean(gameWindow && gameWindow.textContent.includes(VISIT_TEXT));
     }
 
-    enable1964NVisitsTimer = setTimeout(() => {
-        electionFields.has_visits = 1;
-        enable1964NVisitsTimer = null;
-    }, 0);
-}
+    function getVisibleVisitMap() {
+        const gameWindow = document.getElementById("game_window");
+        if (!gameWindow) return null;
+
+        return Array.from(gameWindow.querySelectorAll("#map_container")).find(element => {
+            const style = window.getComputedStyle(element);
+            const rect = element.getBoundingClientRect();
+            return (
+                element.isConnected &&
+                style.display !== "none" &&
+                style.visibility !== "hidden" &&
+                rect.width > 0 &&
+                rect.height > 0
+            );
+        }) || null;
+    }
+
+    function inspectMap(element) {
+        const svg = element ? element.querySelector("svg") : null;
+        const svgRect = svg ? svg.getBoundingClientRect() : null;
+        const plugin = element ? $(element).data("plugin-usmap") : null;
+        const stateShapeCount =
+            plugin && plugin.stateShapes
+                ? Object.keys(plugin.stateShapes).length
+                : (element ? element.querySelectorAll("svg path").length : 0);
+
+        return {
+            plugin,
+            stateShapeCount,
+            containerRect: element ? element.getBoundingClientRect() : null,
+            svgRect,
+            healthy: Boolean(
+                element &&
+                svg &&
+                stateShapeCount >= MIN_STATE_SHAPES &&
+                svgRect &&
+                svgRect.width > 100 &&
+                svgRect.height > 100
+            ),
+        };
+    }
+
+    function disposeFailedMap(element, plugin) {
+        try {
+            if (plugin && plugin.paper && typeof plugin.paper.remove === "function") {
+                plugin.paper.remove();
+            }
+        } catch (_error) {
+            // The failed Raphael object may already have been detached.
+        }
+
+        $(element).removeData("plugin-usmap");
+        element.replaceChildren();
+    }
+
+    function rebuildVisibleVisitMap(element) {
+        if (
+            typeof A !== "function" ||
+            typeof rFunc !== "function" ||
+            typeof $.fn.usmap !== "function"
+        ) {
+            throw new Error("Showcase map functions are unavailable.");
+        }
+
+        const before = inspectMap(element);
+        disposeFailedMap(element, before.plugin);
+
+        const freshPolling = A(2);
+        const visitOptions = rFunc(freshPolling, 1);
+        $(element).usmap(visitOptions);
+    }
+
+    function watchCurrentMap(element) {
+        if (observedMap === element) return;
+        observedMap = element;
+
+        if (resizeObserver) resizeObserver.disconnect();
+        if (typeof ResizeObserver !== "function" || !element) return;
+
+        resizeObserver = new ResizeObserver(scheduleCheck);
+        resizeObserver.observe(element);
+    }
+
+    function checkVisitMap(attempt = 0) {
+        scheduled = false;
+        if (repairing || !isVisitScreen()) return;
+
+        const element = getVisibleVisitMap();
+        if (!element) {
+            if (attempt < MAX_ATTEMPTS) {
+                requestAnimationFrame(() => checkVisitMap(attempt + 1));
+            }
+            return;
+        }
+
+        watchCurrentMap(element);
+        const status = inspectMap(element);
+        if (status.healthy) return;
+
+        const containerReady = Boolean(
+            status.containerRect &&
+            status.containerRect.width > 100 &&
+            status.containerRect.height > 100
+        );
+
+        // MutationObserver fires after Showcase's synchronous call stack.
+        // Two animation frames additionally allow CSS layout to settle.
+        if (!containerReady || attempt < 2) {
+            if (attempt < MAX_ATTEMPTS) {
+                requestAnimationFrame(() => checkVisitMap(attempt + 1));
+            }
+            return;
+        }
+
+        repairing = true;
+        try {
+            rebuildVisibleVisitMap(element);
+        } catch (error) {
+            console.error("[1964N visit map] Rebuild failed.", error);
+        } finally {
+            repairing = false;
+        }
+
+        const after = inspectMap(element);
+        if (!after.healthy && attempt < MAX_ATTEMPTS) {
+            setTimeout(() => checkVisitMap(attempt + 1), 50);
+        } else if (!after.healthy) {
+            console.error("[1964N visit map] Map remained blank after repair.", {
+                stateShapeCount: after.stateShapeCount,
+                containerWidth: after.containerRect?.width,
+                containerHeight: after.containerRect?.height,
+                svgWidth: after.svgRect?.width,
+                svgHeight: after.svgRect?.height,
+            });
+        }
+    }
+
+    function scheduleCheck() {
+        if (scheduled || repairing) return;
+        scheduled = true;
+        queueMicrotask(() => checkVisitMap(0));
+    }
+
+    const observerTarget = document.getElementById("game_window") || document.body;
+    const observer = new MutationObserver(scheduleCheck);
+    observer.observe(observerTarget, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        attributeFilter: ["style", "class"],
+    });
+
+    window.addEventListener("resize", scheduleCheck);
+    scheduleCheck();
+})();
 
 function activate1964NFolsomMatchup() {
     FOLSOMNOMINATED = 1;
