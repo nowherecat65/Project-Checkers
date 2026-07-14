@@ -116,6 +116,15 @@ var NOATTEMPTHEAL = 0;
 var LODGEY = 0;
 var FOLSOMNOMINATED = 0;
 var LBJOPENING = 0;
+
+// Display-only state used by the original White House status panel.
+// These variables reproduce the old panel without changing current route flags.
+var WHITEHOUSEGOODGUYDICK = 0;
+var BADGUYDICK = 0;
+var CRAYES = 0;
+var HEALYES = 0;
+var WORLDSTABLESS = 1;
+
 campaignTrail_temp._1964nNominationFlagLastAnswerCount = -1;
 
 function set1964NQuestionSlot(index, pk, description) {
@@ -396,6 +405,138 @@ function activate1964NFolsomMatchup() {
     set1964NFeedbackText(3385, "This may boost your standing among conservatives, but liberals and, according to recent polling, the majority of Americans staunchly support Social Security. Governor Folsom is not holding back any punches in highlighting this distinction in the final days.");
     set1964NFeedbackText(3388, "No harm, no foul. It’s not as though Social Security is the defining issue in this election, despite Folsom’s efforts. It may be best simply to stick to your guns.");
 }
+function update1964NWhiteHouseStatus(answerPk) {
+    switch (Number(answerPk)) {
+        case 1172:
+            WHITEHOUSEGOODGUYDICK += 1;
+            BADGUYDICK -= 1;
+            break;
+        case 1783:
+            WHITEHOUSEGOODGUYDICK += 1;
+            BADGUYDICK -= 1;
+            break;
+        case 2260:
+        case 22601:
+        case 226012:
+            WHITEHOUSEGOODGUYDICK -= 2;
+            BADGUYDICK += 2;
+            break;
+        case 2261:
+        case 22611:
+        case 226112:
+            WHITEHOUSEGOODGUYDICK += 2;
+            BADGUYDICK -= 2;
+            break;
+        case 3259:
+        case 9259:
+            WHITEHOUSEGOODGUYDICK -= 1;
+            BADGUYDICK += 1;
+            break;
+        case 3352:
+        case 9352:
+            WORLDSTABLESS -= 1;
+            break;
+        case 3353:
+        case 9353:
+            WORLDSTABLESS -= 3;
+            break;
+        case 3354:
+        case 9354:
+            WORLDSTABLESS += 1;
+            break;
+        case 3355:
+        case 9355:
+            WORLDSTABLESS += 2;
+            break;
+        case 4261:
+            WORLDSTABLESS -= 1;
+            break;
+        case 4262:
+            WORLDSTABLESS += 1;
+            break;
+        case 4263:
+            WORLDSTABLESS -= 2;
+            break;
+        case 4264:
+            WORLDSTABLESS += 2;
+            break;
+        case 5265:
+            // The old file applied two separate BADGUYDICK increments here.
+            WHITEHOUSEGOODGUYDICK -= 1;
+            BADGUYDICK += 2;
+            break;
+        case 9265:
+        case 5529:
+        case 7529:
+            BADGUYDICK += 1;
+            break;
+        case 5542:
+        case 7542:
+            WHITEHOUSEGOODGUYDICK += 1;
+            BADGUYDICK -= 1;
+            break;
+        case 6001:
+        case 6004:
+            HEALYES -= 1;
+            break;
+        case 6002:
+            HEALYES += 2;
+            break;
+        case 6003:
+            WHITEHOUSEGOODGUYDICK += 1;
+            BADGUYDICK -= 1;
+            HEALYES += 1;
+            break;
+        case 6114:
+            WHITEHOUSEGOODGUYDICK += 1;
+            break;
+        case 7397:
+        case 8397:
+            WHITEHOUSEGOODGUYDICK += 2;
+            BADGUYDICK -= 1;
+            break;
+        case 7593:
+        case 8593:
+            WHITEHOUSEGOODGUYDICK -= 2;
+            BADGUYDICK += 1;
+            break;
+        case 7594:
+        case 8594:
+            WHITEHOUSEGOODGUYDICK += 2;
+            BADGUYDICK -= 2;
+            break;
+        case 7774:
+            HEALYES -= 3;
+            break;
+        case 77744:
+            HEALYES -= 3;
+            WORLDSTABLESS += 1;
+            break;
+        case 7793:
+        case 8793:
+            WHITEHOUSEGOODGUYDICK -= 2;
+            BADGUYDICK += 1;
+            break;
+        case 7831:
+        case 7832:
+        case 7833:
+            WHITEHOUSEGOODGUYDICK += 3;
+            BADGUYDICK -= 1;
+            CRAYES += 1;
+            break;
+        case 7853:
+            WORLDSTABLESS -= 2;
+            break;
+        case 9261:
+            WORLDSTABLESS += 1;
+            break;
+        case 737422:
+        case 7374223:
+            WORLDSTABLESS -= 3;
+            break;
+    }
+}
+
 campaignTrail_temp._1964nLodgePathActive = false;
 campaignTrail_temp._1964nLodgeLastProcessedAnswerCount = -1;
 cyoAdventure = function(a) {
@@ -427,6 +568,9 @@ cyoAdventure = function(a) {
         if (ans == 7774 || ans == 77744) NOATTEMPTHEAL = 1;
         if (ans == 5529) LODGEY = 1;
         if (ans == 6003) LBJOPENING = 1;
+
+        // Update the original White House display state exactly once per answer.
+        update1964NWhiteHouseStatus(ans);
     }
     if(ans == 5529){
         campaignTrail_temp._1964nLodgePathActive = true;
@@ -4666,8 +4810,8 @@ function openHeadquarter() {
 // Civil rights stance evaluation (no numbers shown)
 let civilScore;
 
-if (typeof GOODGUYDICK !== 'undefined' && typeof BADGUYDICK !== 'undefined') {
-    const g = Number(GOODGUYDICK);
+if (typeof WHITEHOUSEGOODGUYDICK !== 'undefined' && typeof BADGUYDICK !== 'undefined') {
+    const g = Number(WHITEHOUSEGOODGUYDICK);
     const b = Number(BADGUYDICK);
 
     // New high-intensity tiers
@@ -4801,67 +4945,14 @@ world.style.color = 'black';
 world.style.margin = '8px';
 hqDiv.appendChild(world); // or rightCol.appendChild(world);
 
-// HARDBALL status (0, 1, 2+)
-let hardballMsg;
 
-if (typeof HARDBALL !== 'undefined' && HARDBALL !== null) {
-  const h = Number(HARDBALL);
-
-  if (h === 0) {
-    hardballMsg = 'Your conscience is clear.';
-  } else if (h === 1) {
-    hardballMsg = 'Your conscience is clouded.';
-  } else if (h >= 2) {
-    hardballMsg = 'Your conscience is stained.';
-  } else {
-    hardballMsg = 'Hardball status is unclear.';
-  }
-} else {
-  hardballMsg = 'Hardball status unavailable.';
-}
-
-// prevent duplicates
-const existingHardball = document.getElementById('hardballStatus');
-if (existingHardball) existingHardball.remove();
-
-const hardball = document.createElement('p');
-hardball.id = 'hardballStatus';
-hardball.textContent = hardballMsg; // ← no HARDBALL value shown
-hardball.style.color = 'black';
-hardball.style.margin = '8px';
-hqDiv.appendChild(hardball); // or rightCol.appendChild(hardball);
 
 
 
     questions.parentNode.insertBefore(hqDiv, questions.nextSibling);
 
-    // This is the bulk of the content you can edit. You can add more text or images here.
 
-    // Create Bulk of the Text
-    // Duplicate this section to add more lines of text. Make sure to change the variable name "a" to something else. In this case, I changed it to "b".
-    let a = document.createElement('p');
-    a.innerHTML = 'Your success rate in the lead up to the 1912 Democratic Convention is ' + primary + '.'; // This is the text that will be displayed. You can change this to whatever you want. ' + function + ' will display the number from the function.
-    // a.style.flexGrow = '0.1';  // Make h3 take up the maximum space available
-    a.style.color = 'black'; // Can be used to change the color of the text
-    a.style.margin = '8px'; // Can be used to change the space in between the text. Useful if you have a lot of functions.
-    hqDiv.appendChild(a);
 
-    let b = document.createElement('p');
-    b.innerHTML = '' + bliss + ' opponents have been attacked during the course of the Democratic Primary.';
-    // b.style.flexGrow = '0.1';  // Make h3 take up the maximum space available
-    b.style.color = 'black';
-    b.style.margin = '8px';
-    hqDiv.appendChild(b);
-
-    // Image
-    let img = document.createElement('img');
-    img.src = 'https://itsastronomical.com/assets/1912/wilsonbanner.png';
-    img.style.height = '30%';
-    img.style.marginLeft = '1em';
-    img.style.flexGrow = '0.1';
-    img.style.border = '3px solid black';  // Add thin white border to the image
-    hqDiv.appendChild(img);
-    
 }
 
 function handleMutations(mutationsList, observer) {
