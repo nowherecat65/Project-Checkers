@@ -141,54 +141,26 @@ function set1964NFeedbackText(answerPk, feedback) {
 }
 
 
+let enable1964NVisitsTimer = null;
 function enable1964NCampaignVisits() {
-    campaignTrail_temp.election_json[0].fields.has_visits = 1;
+    const electionFields = campaignTrail_temp.election_json[0].fields;
 
-    // The presidency section suppresses visits. Remove the cached polling map
-    // before the first campaign visit so the engine cannot initialize the
-    // hidden #map_container instead of the visit map.
-    document.querySelectorAll("#main_content_area #map_container").forEach(map => map.remove());
+    // Showcase calculates the current turn's polling before cyoAdventure runs.
+    // These routes change the opponent inside cyoAdventure. If visits are enabled
+    // synchronously here, nextQuestion immediately tries to draw a visit map from
+    // the pre-transition polling object. Keep visits off for the remainder of this
+    // call stack, let the newly selected matchup/question commit normally, and
+    // enable visits for the next ordinary campaign-map break.
+    electionFields.has_visits = 0;
 
-    const repairVisibleVisitMap = () => {
-        const visibleMap = document.querySelector("#game_window #map_container");
-        if (!visibleMap || typeof window.jQuery !== "function") return false;
+    if (enable1964NVisitsTimer !== null) {
+        clearTimeout(enable1964NVisitsTimer);
+    }
 
-        const $visibleMap = window.jQuery(visibleMap);
-
-        // A usmap plugin object can exist even when its Raphael/SVG state shapes
-        // were never drawn. The previous repair treated that blank object as a
-        // successful map and returned too early.
-        const drawnStatePaths = visibleMap.querySelectorAll("svg path").length;
-        if (drawnStatePaths >= 40) return true;
-
-        if (
-            typeof A !== "function" ||
-            typeof rFunc !== "function" ||
-            typeof $visibleMap.usmap !== "function"
-        ) {
-            return false;
-        }
-
-        try {
-            // Clear both the failed drawing and the stale plugin marker, then
-            // calculate the map again after the opponent swap has completed.
-            $visibleMap.empty();
-            $visibleMap.removeData("plugin-usmap");
-            $visibleMap.usmap(rFunc(A(2), 1));
-
-            return visibleMap.querySelectorAll("svg path").length >= 40;
-        } catch (error) {
-            console.error("[1964N] Unable to rebuild the visible visit map.", error);
-            return false;
-        }
-    };
-
-    // nextQuestion creates the visit screen only after cyoAdventure returns.
-    // Multiple checks cover the synchronous render and slower browser/plugin
-    // timing without touching an already completed map.
-    [0, 50, 150, 350, 750].forEach(delay => {
-        setTimeout(repairVisibleVisitMap, delay);
-    });
+    enable1964NVisitsTimer = setTimeout(() => {
+        electionFields.has_visits = 1;
+        enable1964NVisitsTimer = null;
+    }, 0);
 }
 
 function activate1964NFolsomMatchup() {
