@@ -4532,4 +4532,301 @@ endingPicker = (out, totv, aa, quickstats) => {
         .replaceAll("Better Tomorrow", "Great Abundance");
 };
 
+
+/*
+ * 1964N White House / Variable Headquarters
+ *
+ * Restored from the Variable Headquarters concept credited in the older source
+ * to Astro and Nina. This version reads only variables that the current Code 2
+ * actually maintains; it intentionally does not restore obsolete or undefined
+ * 1912-template variables such as `primary` and `bliss`.
+ */
+function get1964NRouteState() {
+    const numeric = value => {
+        const number = Number(value);
+        return Number.isFinite(number) ? number : null;
+    };
+
+    return {
+        GOODGUYDICK:
+            typeof GOODGUYDICK !== "undefined" ? numeric(GOODGUYDICK) : null,
+        FOLSOMEE:
+            typeof FOLSOMEE !== "undefined" ? numeric(FOLSOMEE) : null,
+        NOATTEMPTHEAL:
+            typeof NOATTEMPTHEAL !== "undefined" ? numeric(NOATTEMPTHEAL) : null,
+        LODGEY:
+            typeof LODGEY !== "undefined" ? numeric(LODGEY) : null,
+        FOLSOMNOMINATED:
+            typeof FOLSOMNOMINATED !== "undefined" ? numeric(FOLSOMNOMINATED) : null,
+        LBJOPENING:
+            typeof LBJOPENING !== "undefined" ? numeric(LBJOPENING) : null,
+        answered:
+            campaignTrail_temp && Array.isArray(campaignTrail_temp.player_answers)
+                ? campaignTrail_temp.player_answers.length
+                : 0,
+    };
+}
+
+function make1964NWhiteHouseLine(label, value, explanation) {
+    const row = document.createElement("div");
+    row.style.background = "rgba(255, 255, 255, 0.88)";
+    row.style.border = "1px solid rgba(45, 35, 28, 0.35)";
+    row.style.borderRadius = "6px";
+    row.style.padding = "8px 10px";
+    row.style.margin = "5px";
+    row.style.boxSizing = "border-box";
+
+    const heading = document.createElement("div");
+    heading.style.fontWeight = "700";
+    heading.style.color = "#221914";
+    heading.textContent = `${label}: ${value}`;
+    row.appendChild(heading);
+
+    if (explanation) {
+        const detail = document.createElement("div");
+        detail.style.color = "#3e3129";
+        detail.style.fontSize = "0.92em";
+        detail.style.marginTop = "2px";
+        detail.textContent = explanation;
+        row.appendChild(detail);
+    }
+
+    return row;
+}
+
+function open1964NWhiteHouse() {
+    if (document.getElementById("headquarter")) return;
+
+    const questionPanel = document.querySelector(".inner_window_question");
+    if (!questionPanel || !questionPanel.parentNode) return;
+
+    const existingButton = document.getElementById("headquarter_button");
+    if (existingButton) existingButton.remove();
+
+    const previousDisplay = questionPanel.style.display;
+    questionPanel.style.display = "none";
+
+    const state = get1964NRouteState();
+    const coreFolsomReady =
+        state.FOLSOMEE === 1 &&
+        state.NOATTEMPTHEAL === 1 &&
+        state.LODGEY === 0 &&
+        state.GOODGUYDICK !== null &&
+        state.GOODGUYDICK >= 6;
+
+    const headquarters = document.createElement("div");
+    headquarters.id = "headquarter";
+    headquarters.style.position = "relative";
+    headquarters.style.display = "flex";
+    headquarters.style.flexDirection = "column";
+    headquarters.style.boxSizing = "border-box";
+    headquarters.style.width = "100%";
+    headquarters.style.minHeight = "330px";
+    headquarters.style.maxHeight = "62vh";
+    headquarters.style.overflowY = "auto";
+    headquarters.style.padding = "10px";
+    headquarters.style.color = "#221914";
+    headquarters.style.backgroundColor = "#ded7ca";
+    headquarters.style.backgroundImage =
+        "linear-gradient(rgba(239,234,224,0.70), rgba(239,234,224,0.82)), " +
+        "url(https://i.postimg.cc/cJb3JkYD/nixonwhitehuse.png)";
+    headquarters.style.backgroundSize = "cover";
+    headquarters.style.backgroundPosition = "center";
+    headquarters.style.border = "5px solid #19130f";
+    headquarters.style.borderRadius = "10px";
+
+    const header = document.createElement("div");
+    header.style.display = "flex";
+    header.style.alignItems = "center";
+    header.style.justifyContent = "space-between";
+    header.style.gap = "12px";
+    header.style.marginBottom = "7px";
+
+    const backButton = document.createElement("button");
+    backButton.type = "button";
+    backButton.textContent = "Back";
+    backButton.style.padding = "5px 12px";
+    backButton.onclick = () => {
+        headquarters.remove();
+        questionPanel.style.display = previousDisplay;
+        requestAnimationFrame(ensure1964NWhiteHouseButton);
+    };
+    header.appendChild(backButton);
+
+    const title = document.createElement("h3");
+    title.textContent = "The White House";
+    title.style.flex = "1";
+    title.style.margin = "0";
+    title.style.padding = "7px 12px";
+    title.style.textAlign = "center";
+    title.style.background = "rgba(255,255,255,0.88)";
+    title.style.borderRadius = "6px";
+    title.style.color = "#221914";
+    header.appendChild(title);
+
+    const spacer = document.createElement("div");
+    spacer.style.width = "55px";
+    header.appendChild(spacer);
+
+    headquarters.appendChild(header);
+
+    const summary = document.createElement("div");
+    summary.style.background = "rgba(255, 248, 235, 0.92)";
+    summary.style.border = "2px solid rgba(45, 35, 28, 0.50)";
+    summary.style.borderRadius = "7px";
+    summary.style.padding = "9px 12px";
+    summary.style.margin = "4px 5px 8px";
+    summary.style.fontWeight = "600";
+
+    if (state.FOLSOMNOMINATED === 1) {
+        summary.textContent =
+            "Big Jim Folsom has secured the Democratic nomination. The Great Abundance matchup is active.";
+    } else if (coreFolsomReady) {
+        summary.textContent =
+            "The underlying Big Jim Folsom conditions are satisfied. His convention question will occupy the Folsom nomination slot.";
+    } else {
+        summary.textContent =
+            "The Big Jim Folsom opening is not yet fully unlocked. The checklist below shows the current route state.";
+    }
+    headquarters.appendChild(summary);
+
+    const columns = document.createElement("div");
+    columns.style.display = "grid";
+    columns.style.gridTemplateColumns = "repeat(auto-fit, minmax(260px, 1fr))";
+    columns.style.width = "100%";
+
+    const liberalDescription =
+        state.GOODGUYDICK === null
+            ? "Unavailable."
+            : state.GOODGUYDICK >= 6
+                ? "The administration has accumulated the strongly liberal record required for the Folsom opening."
+                : `The Folsom opening requires 6 or more; ${6 - state.GOODGUYDICK} additional point(s) are currently needed.`;
+
+    columns.appendChild(
+        make1964NWhiteHouseLine(
+            "Liberal governing score",
+            state.GOODGUYDICK ?? "Unavailable",
+            liberalDescription
+        )
+    );
+
+    columns.appendChild(
+        make1964NWhiteHouseLine(
+            "Praised Folsom in Birmingham",
+            state.FOLSOMEE === 1 ? "Yes" : "No",
+            "This is set by explicitly commending Governor Folsom for releasing Dr. King."
+        )
+    );
+
+    columns.appendChild(
+        make1964NWhiteHouseLine(
+            "HEAL sidelined",
+            state.NOATTEMPTHEAL === 1 ? "Yes" : "No",
+            "The Folsom opening requires Nixon to defer or abandon the HEAL push."
+        )
+    );
+
+    columns.appendChild(
+        make1964NWhiteHouseLine(
+            "Nixon remains the candidate",
+            state.LODGEY === 0 ? "Yes" : "No",
+            "The Dallas assassination/Lodge route prevents the Nixon-versus-Folsom matchup."
+        )
+    );
+
+    columns.appendChild(
+        make1964NWhiteHouseLine(
+            "Folsom nominated",
+            state.FOLSOMNOMINATED === 1 ? "Yes" : "No",
+            "This becomes active only after answering the special Folsom convention question."
+        )
+    );
+
+    columns.appendChild(
+        make1964NWhiteHouseLine(
+            "Additional Johnson opening",
+            state.LBJOPENING === 1 ? "Open" : "Closed",
+            "Tracks the narrow Albert Thomas amendment route into the Johnson possibility."
+        )
+    );
+
+    columns.appendChild(
+        make1964NWhiteHouseLine(
+            "Questions answered",
+            state.answered,
+            "Current progress through the scenario."
+        )
+    );
+
+    columns.appendChild(
+        make1964NWhiteHouseLine(
+            "Folsom trigger",
+            coreFolsomReady ? "Ready" : "Not ready",
+            "Requires: praise Folsom, sideline HEAL, keep Nixon alive, and reach a liberal score of at least 6."
+        )
+    );
+
+    headquarters.appendChild(columns);
+    questionPanel.parentNode.insertBefore(headquarters, questionPanel.nextSibling);
+}
+
+function ensure1964NWhiteHouseButton() {
+    if (
+        document.getElementById("headquarter_button") ||
+        document.getElementById("headquarter")
+    ) {
+        return;
+    }
+
+    const referenceButton = document.getElementById("view_electoral_map");
+    const questionPanel = document.querySelector(".inner_window_question");
+
+    if (
+        !referenceButton ||
+        !questionPanel ||
+        !referenceButton.isConnected ||
+        !questionPanel.isConnected
+    ) {
+        return;
+    }
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.id = "headquarter_button";
+    button.textContent = "White House";
+    button.style.marginLeft = "1.5em";
+    button.addEventListener("click", open1964NWhiteHouse);
+    referenceButton.insertAdjacentElement("afterend", button);
+}
+
+let whiteHouseButtonCheckScheduled1964N = false;
+
+function schedule1964NWhiteHouseButtonCheck() {
+    if (whiteHouseButtonCheckScheduled1964N) return;
+    whiteHouseButtonCheckScheduled1964N = true;
+
+    requestAnimationFrame(() => {
+        whiteHouseButtonCheckScheduled1964N = false;
+        ensure1964NWhiteHouseButton();
+    });
+}
+
+if (
+    window.__1964NWhiteHouseObserver &&
+    typeof window.__1964NWhiteHouseObserver.disconnect === "function"
+) {
+    window.__1964NWhiteHouseObserver.disconnect();
+}
+
+window.__1964NWhiteHouseObserver = new MutationObserver(
+    schedule1964NWhiteHouseButtonCheck
+);
+window.__1964NWhiteHouseObserver.observe(document.documentElement, {
+    childList: true,
+    subtree: true,
+});
+
+schedule1964NWhiteHouseButtonCheck();
+
+
 campaignTrail_temp.multiple_endings=true
